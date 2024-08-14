@@ -99,6 +99,7 @@ main-content {
   margin-top: 57px;
   padding: 0 0 0 0;
   background-color: var(--header-bg-color, #573e84);
+  z-index: -1;
 }
 record-details-overlay {
   display: block;
@@ -124,6 +125,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: -1;
 }
 
 record-details-header {
