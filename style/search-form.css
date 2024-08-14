@@ -1,0 +1,68 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 3fr 7fr 1fr 12fr;
+  grid-template-rows: 2em 2em;
+  background-color: #573e84;
+  padding: 0px;
+  justify-items: stretch;
+}
+.grid-item {
+  background-color: #573e84;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+}
+input {
+  all: unset;
+}
+#search-target-select {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%; 
+  font-size: 14px;
+  height: 30px;
+  border: 0;
+  border-right: 1px solid purple;
+  border-radius: 0px;
+}
+#search-input-field {-
+  box-sizing: border-box;
+  display: inline-block;
+  width: 98%;
+  height: 16px;
+  line-height: 20pt;
+  text-size-adjust: 100%;
+  padding: 7px 0 5px 12px;
+  margin-top: 0;
+  text-align: start;
+  background-color: white;
+  color: black;
+}
+#search-button {
+  box-sizing: border-box;
+  display: inline-block;
+  color: black;
+  background: gray;
+  height: 2em;
+  padding: 3px 10px 5px 10px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+header .empty-space {
+  background-color: #573e84;
+}
+
+#search-extras-below {
+  grid-row: 2;
+  grid-column: 1 / 5;
+  background-color: #573e84;
+  color: white;
+  padding-top: 5px;
+}
+#search-extras-below a {
+  color: white;
+}
+common-and-cultivar {
+  display: inline-block;
+  width: 12em;
+}

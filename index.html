@@ -1,0 +1,3161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trial Editor Layout v5 - search form and menu</title>
+  <link rel="stylesheet" href="style/normalize.css">  
+  <link rel="stylesheet" href="style/fontawesome-free.all.min.css">  
+  <link rel="stylesheet" href="style/style.css">  
+  <link rel="stylesheet" href="style/nav-menu-bar.css">  
+  <link rel="stylesheet" href="style/search-form.css">  
+  <link rel="stylesheet" href="style/main-page-tabs.css">  
+  <link rel="stylesheet" href="style/tables.css">  
+  <link rel="stylesheet" href="style/search-results.css">  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a id="home-tag" href="#home">Editor static v7</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#new">New</a></li>
+        <li><a href="#help">Help</a>
+            <ul class="hidden">
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">What We Do</a></li>
+            </ul>
+        </li>
+        <li><a href="#gclarke">Greg Clarke</a></li>
+        <li><a href="#taxonomy">Taxonomy</a></li>
+        <li><a href="#batch">Batch</a></li>
+        <li><a href="#admin">Admin</a></li>
+      </ul>
+    </nav>
+    <header-body>
+        <form>
+
+<div class="grid-container">
+  <div class="grid-item">
+          <select id="search-target-select" name="search-targets" id="search-targets" style: "border-radius: 0;">
+            <option value="Names">Names</option>
+            <option value="Names plus instances">Names plus instances</option>
+            <option value="Batch Stacks">Batch Stacks</option>
+            <option value="----------------------------------"></option>
+            <option value="References, Names, full synonymy">References, Names, full synonymy</option>
+          </select>
+  </div>
+  <div class="grid-item">
+    <input id="search-input-field" 
+    name="query_string" 
+    type="search" 
+    aria-label="search field"
+    tabindex = "8"
+    placeholder = "Search terms"
+    autofocus = ""
+    title = "Specify your search"
+    value = "angophora"
+    required
+    >
+  </div>
+  <div class="grid-item">
+    <input id="search-button" name="query_submit" value="Search" type="submit" class="btn search-btn" tabindex="9" title="Run the query">
+  </div>  
+  <div id="empty-space-right-of-search-button" class="grid-item empty-space">
+    <!-- empty space -->
+  </div>  
+  <div id="search-extras-below" class="grid-item">
+    <common-and-cultivar>
+    <a title="Name searches will exclude common names and cultivars" 
+       class="" 
+       data-remote="true" 
+       rel="nofollow" 
+       data-method="post" 
+       href="/nsl/editor/set_include_common_and_cultivar">
+       <i class="fa-sharp fa-regular fa-lg fa-square" aria-hidden="true"></i> 
+       Common/Cultivars</a>
+    </common-and-cultivar>
+    61 name of 61 | Names "angophora"
+    
+  </div>
+</div>
+        </form>
+    </header-body>
+
+
+
+  </header> 
+  <main-content>
+
+<main-content-tabs class="tabs">
+    
+   <tab class="tab">
+       <input id="search-results-radio" type="radio" name="results-tab-group" checked>
+       <label for="search-results-radio">Results</label>
+       
+    <div class="tab-content">
+
+    <table id="search-results-table" class="table table-condensed search-results" data-summary="Results of the latest search.">
+    
+
+        
+<tbody>
+  <tr id="search-result-91714" class="search-result showing-details" data-get-url="/nsl/editor/names/91714" data-edit-url="/nsl/editor/names/91714" data-base-url="/nsl/editor/names/91714" data-tab-url="/nsl/editor/names/91714/tab/active_tab_goes_here" data-record-id="91714" data-record-type="name" tabindex="1101">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent">
+  </td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent  give-me-focus">
+    <a href="#" class="show-details-link" style="text-decoration: none;" tabindex="1102" title="Name record.  Select to show details." id="name-91714">
+       Angophora Cav.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+
+        
+<tr id="search-result-51777179" class="search-result " data-get-url="/nsl/editor/names/51777179" data-edit-url="/nsl/editor/names/51777179" data-base-url="/nsl/editor/names/51777179" data-tab-url="/nsl/editor/names/51777179/tab/active_tab_goes_here" data-record-id="51777179" data-record-type="name" tabindex="1202">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1203" title="Name record.  Select to show details." id="name-51777179">
+       Angophora abc
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236823" class="search-result " data-get-url="/nsl/editor/names/236823" data-edit-url="/nsl/editor/names/236823" data-base-url="/nsl/editor/names/236823" data-tab-url="/nsl/editor/names/236823/tab/active_tab_goes_here" data-record-id="236823" data-record-type="name" tabindex="1303">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1304" title="Name record.  Select to show details." id="name-236823">
+       Angophora Cav. subser. Angophora
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236822" class="search-result " data-get-url="/nsl/editor/names/236822" data-edit-url="/nsl/editor/names/236822" data-base-url="/nsl/editor/names/236822" data-tab-url="/nsl/editor/names/236822/tab/active_tab_goes_here" data-record-id="236822" data-record-type="name" tabindex="1404">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1405" title="Name record.  Select to show details." id="name-236822">
+       Angophora Cav. ser. Angophora
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91724" class="search-result " data-get-url="/nsl/editor/names/91724" data-edit-url="/nsl/editor/names/91724" data-base-url="/nsl/editor/names/91724" data-tab-url="/nsl/editor/names/91724/tab/active_tab_goes_here" data-record-id="91724" data-record-type="name" tabindex="1505">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1506" title="Name record.  Select to show details." id="name-91724">
+       Angophora bakeri E.C.Hall
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91727" class="search-result " data-get-url="/nsl/editor/names/91727" data-edit-url="/nsl/editor/names/91727" data-base-url="/nsl/editor/names/91727" data-tab-url="/nsl/editor/names/91727/tab/active_tab_goes_here" data-record-id="91727" data-record-type="name" tabindex="1606">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1607" title="Name record.  Select to show details." id="name-91727">
+       Angophora bakeri E.C.Hall subsp. bakeri
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91732" class="search-result " data-get-url="/nsl/editor/names/91732" data-edit-url="/nsl/editor/names/91732" data-base-url="/nsl/editor/names/91732" data-tab-url="/nsl/editor/names/91732/tab/active_tab_goes_here" data-record-id="91732" data-record-type="name" tabindex="1707">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1708" title="Name record.  Select to show details." id="name-91732">
+       Angophora bakeri subsp. crassifolia G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91733" class="search-result " data-get-url="/nsl/editor/names/91733" data-edit-url="/nsl/editor/names/91733" data-base-url="/nsl/editor/names/91733" data-tab-url="/nsl/editor/names/91733/tab/active_tab_goes_here" data-record-id="91733" data-record-type="name" tabindex="1808">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1809" title="Name record.  Select to show details." id="name-91733">
+       Angophora bakeri subsp. paludosa G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777180" class="search-result " data-get-url="/nsl/editor/names/51777180" data-edit-url="/nsl/editor/names/51777180" data-base-url="/nsl/editor/names/51777180" data-tab-url="/nsl/editor/names/51777180/tab/active_tab_goes_here" data-record-id="51777180" data-record-type="name" tabindex="1909">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1910" title="Name record.  Select to show details." id="name-51777180">
+       Angophora bcdexx
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777181" class="search-result " data-get-url="/nsl/editor/names/51777181" data-edit-url="/nsl/editor/names/51777181" data-base-url="/nsl/editor/names/51777181" data-tab-url="/nsl/editor/names/51777181/tab/active_tab_goes_here" data-record-id="51777181" data-record-type="name" tabindex="2010">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2011" title="Name record.  Select to show details." id="name-51777181">
+       Angophora cdef
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-203476" class="search-result " data-get-url="/nsl/editor/names/203476" data-edit-url="/nsl/editor/names/203476" data-base-url="/nsl/editor/names/203476" data-tab-url="/nsl/editor/names/203476/tab/active_tab_goes_here" data-record-id="203476" data-record-type="name" tabindex="2111">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2112" title="Name record.  Select to show details." id="name-203476">
+       Angophora x clelandi Maiden
+[orth. var.]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91735" class="search-result " data-get-url="/nsl/editor/names/91735" data-edit-url="/nsl/editor/names/91735" data-base-url="/nsl/editor/names/91735" data-tab-url="/nsl/editor/names/91735/tab/active_tab_goes_here" data-record-id="91735" data-record-type="name" tabindex="2212">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2213" title="Name record.  Select to show details." id="name-91735">
+       Angophora x clelandii Maiden
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91742" class="search-result " data-get-url="/nsl/editor/names/91742" data-edit-url="/nsl/editor/names/91742" data-base-url="/nsl/editor/names/91742" data-tab-url="/nsl/editor/names/91742/tab/active_tab_goes_here" data-record-id="91742" data-record-type="name" tabindex="2313">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2314" title="Name record.  Select to show details." id="name-91742">
+       Angophora cordata Vis.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91746" class="search-result " data-get-url="/nsl/editor/names/91746" data-edit-url="/nsl/editor/names/91746" data-base-url="/nsl/editor/names/91746" data-tab-url="/nsl/editor/names/91746/tab/active_tab_goes_here" data-record-id="91746" data-record-type="name" tabindex="2414">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2415" title="Name record.  Select to show details." id="name-91746">
+       Angophora cordifolia Cav.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91755" class="search-result " data-get-url="/nsl/editor/names/91755" data-edit-url="/nsl/editor/names/91755" data-base-url="/nsl/editor/names/91755" data-tab-url="/nsl/editor/names/91755/tab/active_tab_goes_here" data-record-id="91755" data-record-type="name" tabindex="2515">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2516" title="Name record.  Select to show details." id="name-91755">
+       Angophora costata (Gaertn.) Britten
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51254137" class="search-result " data-get-url="/nsl/editor/names/51254137" data-edit-url="/nsl/editor/names/51254137" data-base-url="/nsl/editor/names/51254137" data-tab-url="/nsl/editor/names/51254137/tab/active_tab_goes_here" data-record-id="51254137" data-record-type="name" tabindex="2616">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2617" title="Name record.  Select to show details." id="name-51254137">
+       Angophora costata (Gaertn.) Domin
+[isonym]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-203475" class="search-result " data-get-url="/nsl/editor/names/203475" data-edit-url="/nsl/editor/names/203475" data-base-url="/nsl/editor/names/203475" data-tab-url="/nsl/editor/names/203475/tab/active_tab_goes_here" data-record-id="203475" data-record-type="name" tabindex="2717">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2718" title="Name record.  Select to show details." id="name-203475">
+       Angophora costata subsp. AAADAB
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-203474" class="search-result " data-get-url="/nsl/editor/names/203474" data-edit-url="/nsl/editor/names/203474" data-base-url="/nsl/editor/names/203474" data-tab-url="/nsl/editor/names/203474/tab/active_tab_goes_here" data-record-id="203474" data-record-type="name" tabindex="2818">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2819" title="Name record.  Select to show details." id="name-203474">
+       Angophora costata subsp. AAADACeee
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91759" class="search-result " data-get-url="/nsl/editor/names/91759" data-edit-url="/nsl/editor/names/91759" data-base-url="/nsl/editor/names/91759" data-tab-url="/nsl/editor/names/91759/tab/active_tab_goes_here" data-record-id="91759" data-record-type="name" tabindex="2919">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2920" title="Name record.  Select to show details." id="name-91759">
+       Angophora costata (Gaertn.) Britten subsp. costata
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91763" class="search-result " data-get-url="/nsl/editor/names/91763" data-edit-url="/nsl/editor/names/91763" data-base-url="/nsl/editor/names/91763" data-tab-url="/nsl/editor/names/91763/tab/active_tab_goes_here" data-record-id="91763" data-record-type="name" tabindex="3020">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3021" title="Name record.  Select to show details." id="name-91763">
+       Angophora costata subsp. euryphylla L.A.S.Johnson ex G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91764" class="search-result " data-get-url="/nsl/editor/names/91764" data-edit-url="/nsl/editor/names/91764" data-base-url="/nsl/editor/names/91764" data-tab-url="/nsl/editor/names/91764/tab/active_tab_goes_here" data-record-id="91764" data-record-type="name" tabindex="3121">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3122" title="Name record.  Select to show details." id="name-91764">
+       Angophora costata subsp. leiocarpa L.A.S.Johnson ex G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236827" class="search-result " data-get-url="/nsl/editor/names/236827" data-edit-url="/nsl/editor/names/236827" data-base-url="/nsl/editor/names/236827" data-tab-url="/nsl/editor/names/236827/tab/active_tab_goes_here" data-record-id="236827" data-record-type="name" tabindex="3222">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3223" title="Name record.  Select to show details." id="name-236827">
+       Angophora ser. Costatitae K.R.Thiele &amp; Ladiges
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-118572" class="search-result " data-get-url="/nsl/editor/names/118572" data-edit-url="/nsl/editor/names/118572" data-base-url="/nsl/editor/names/118572" data-tab-url="/nsl/editor/names/118572/tab/active_tab_goes_here" data-record-id="118572" data-record-type="name" tabindex="3323">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3324" title="Name record.  Select to show details." id="name-118572">
+       Angophora crassifolia (G.J.Leach) L.A.S.Johnson &amp; K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91768" class="search-result " data-get-url="/nsl/editor/names/91768" data-edit-url="/nsl/editor/names/91768" data-base-url="/nsl/editor/names/91768" data-tab-url="/nsl/editor/names/91768/tab/active_tab_goes_here" data-record-id="91768" data-record-type="name" tabindex="3424">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3425" title="Name record.  Select to show details." id="name-91768">
+       Angophora x dichromophloia Blakely
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-118569" class="search-result " data-get-url="/nsl/editor/names/118569" data-edit-url="/nsl/editor/names/118569" data-base-url="/nsl/editor/names/118569" data-tab-url="/nsl/editor/names/118569/tab/active_tab_goes_here" data-record-id="118569" data-record-type="name" tabindex="3525">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3526" title="Name record.  Select to show details." id="name-118569">
+       Angophora euryphylla (L.A.S.Johnson ex G.J.Leach) L.A.S.Johnson &amp; K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-162397" class="search-result " data-get-url="/nsl/editor/names/162397" data-edit-url="/nsl/editor/names/162397" data-base-url="/nsl/editor/names/162397" data-tab-url="/nsl/editor/names/162397/tab/active_tab_goes_here" data-record-id="162397" data-record-type="name" tabindex="3626">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3627" title="Name record.  Select to show details." id="name-162397">
+       Angophora exul K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777182" class="search-result " data-get-url="/nsl/editor/names/51777182" data-edit-url="/nsl/editor/names/51777182" data-base-url="/nsl/editor/names/51777182" data-tab-url="/nsl/editor/names/51777182/tab/active_tab_goes_here" data-record-id="51777182" data-record-type="name" tabindex="3727">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3728" title="Name record.  Select to show details." id="name-51777182">
+       Angophora fghij
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91776" class="search-result " data-get-url="/nsl/editor/names/91776" data-edit-url="/nsl/editor/names/91776" data-base-url="/nsl/editor/names/91776" data-tab-url="/nsl/editor/names/91776/tab/active_tab_goes_here" data-record-id="91776" data-record-type="name" tabindex="3828">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3829" title="Name record.  Select to show details." id="name-91776">
+       Angophora floribunda (Sm.) Sweet
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91787" class="search-result " data-get-url="/nsl/editor/names/91787" data-edit-url="/nsl/editor/names/91787" data-base-url="/nsl/editor/names/91787" data-tab-url="/nsl/editor/names/91787/tab/active_tab_goes_here" data-record-id="91787" data-record-type="name" tabindex="3929">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3930" title="Name record.  Select to show details." id="name-91787">
+       Angophora floribunda (Sm.) Domin
+[nom. illeg., nom. superfl.]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51390653" class="search-result " data-get-url="/nsl/editor/names/51390653" data-edit-url="/nsl/editor/names/51390653" data-base-url="/nsl/editor/names/51390653" data-tab-url="/nsl/editor/names/51390653/tab/active_tab_goes_here" data-record-id="51390653" data-record-type="name" tabindex="4030">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4031" title="Name record.  Select to show details." id="name-51390653">
+       Angophora floribunda (Sm.) Sweet x Angophora leiocarpa (L.A.S.Johnson ex G.J.Leach) K.R.Thiele &amp; Ladiges
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51370961" class="search-result " data-get-url="/nsl/editor/names/51370961" data-edit-url="/nsl/editor/names/51370961" data-base-url="/nsl/editor/names/51370961" data-tab-url="/nsl/editor/names/51370961/tab/active_tab_goes_here" data-record-id="51370961" data-record-type="name" tabindex="4131">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4132" title="Name record.  Select to show details." id="name-51370961">
+       Angophora floribunda (Sm.) Sweet x Angophora woodsiana F.M.Bailey
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91794" class="search-result " data-get-url="/nsl/editor/names/91794" data-edit-url="/nsl/editor/names/91794" data-base-url="/nsl/editor/names/91794" data-tab-url="/nsl/editor/names/91794/tab/active_tab_goes_here" data-record-id="91794" data-record-type="name" tabindex="4232">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4233" title="Name record.  Select to show details." id="name-91794">
+       Angophora floribunda (Sm.) Sweet var. floribunda
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91798" class="search-result " data-get-url="/nsl/editor/names/91798" data-edit-url="/nsl/editor/names/91798" data-base-url="/nsl/editor/names/91798" data-tab-url="/nsl/editor/names/91798/tab/active_tab_goes_here" data-record-id="91798" data-record-type="name" tabindex="4333">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4334" title="Name record.  Select to show details." id="name-91798">
+       Angophora floribunda var. woodsiana (F.M.Bailey) Domin
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236820" class="search-result " data-get-url="/nsl/editor/names/236820" data-edit-url="/nsl/editor/names/236820" data-base-url="/nsl/editor/names/236820" data-tab-url="/nsl/editor/names/236820/tab/active_tab_goes_here" data-record-id="236820" data-record-type="name" tabindex="4434">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4435" title="Name record.  Select to show details." id="name-236820">
+       Angophora ser. Floribundinae K.R.Thiele &amp; Ladiges
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777176" class="search-result " data-get-url="/nsl/editor/names/51777176" data-edit-url="/nsl/editor/names/51777176" data-base-url="/nsl/editor/names/51777176" data-tab-url="/nsl/editor/names/51777176/tab/active_tab_goes_here" data-record-id="51777176" data-record-type="name" tabindex="4535">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4536" title="Name record.  Select to show details." id="name-51777176">
+       Angophora fred
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91809" class="search-result " data-get-url="/nsl/editor/names/91809" data-edit-url="/nsl/editor/names/91809" data-base-url="/nsl/editor/names/91809" data-tab-url="/nsl/editor/names/91809/tab/active_tab_goes_here" data-record-id="91809" data-record-type="name" tabindex="4636">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4637" title="Name record.  Select to show details." id="name-91809">
+       Angophora hispida (Sm.) Blaxell
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-159969" class="search-result " data-get-url="/nsl/editor/names/159969" data-edit-url="/nsl/editor/names/159969" data-base-url="/nsl/editor/names/159969" data-tab-url="/nsl/editor/names/159969/tab/active_tab_goes_here" data-record-id="159969" data-record-type="name" tabindex="4737">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4738" title="Name record.  Select to show details." id="name-159969">
+       Angophora inopina K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91819" class="search-result " data-get-url="/nsl/editor/names/91819" data-edit-url="/nsl/editor/names/91819" data-base-url="/nsl/editor/names/91819" data-tab-url="/nsl/editor/names/91819/tab/active_tab_goes_here" data-record-id="91819" data-record-type="name" tabindex="4838">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4839" title="Name record.  Select to show details." id="name-91819">
+       Angophora intermedia DC.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91827" class="search-result " data-get-url="/nsl/editor/names/91827" data-edit-url="/nsl/editor/names/91827" data-base-url="/nsl/editor/names/91827" data-tab-url="/nsl/editor/names/91827/tab/active_tab_goes_here" data-record-id="91827" data-record-type="name" tabindex="4939">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4940" title="Name record.  Select to show details." id="name-91827">
+       Angophora intermedia DC. var. intermedia
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91831" class="search-result " data-get-url="/nsl/editor/names/91831" data-edit-url="/nsl/editor/names/91831" data-base-url="/nsl/editor/names/91831" data-tab-url="/nsl/editor/names/91831/tab/active_tab_goes_here" data-record-id="91831" data-record-type="name" tabindex="5040">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5041" title="Name record.  Select to show details." id="name-91831">
+       Angophora intermedia var. melanoxylon (R.T.Baker) Maiden &amp; Betche
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91840" class="search-result " data-get-url="/nsl/editor/names/91840" data-edit-url="/nsl/editor/names/91840" data-base-url="/nsl/editor/names/91840" data-tab-url="/nsl/editor/names/91840/tab/active_tab_goes_here" data-record-id="91840" data-record-type="name" tabindex="5141">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5142" title="Name record.  Select to show details." id="name-91840">
+       Angophora intermedia var. woodsiana (F.M.Bailey) F.M.Bailey
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777178" class="search-result " data-get-url="/nsl/editor/names/51777178" data-edit-url="/nsl/editor/names/51777178" data-base-url="/nsl/editor/names/51777178" data-tab-url="/nsl/editor/names/51777178/tab/active_tab_goes_here" data-record-id="51777178" data-record-type="name" tabindex="5242">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5243" title="Name record.  Select to show details." id="name-51777178">
+       Angophora jim
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777177" class="search-result " data-get-url="/nsl/editor/names/51777177" data-edit-url="/nsl/editor/names/51777177" data-base-url="/nsl/editor/names/51777177" data-tab-url="/nsl/editor/names/51777177/tab/active_tab_goes_here" data-record-id="51777177" data-record-type="name" tabindex="5343">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5344" title="Name record.  Select to show details." id="name-51777177">
+       Angophora joe
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91851" class="search-result " data-get-url="/nsl/editor/names/91851" data-edit-url="/nsl/editor/names/91851" data-base-url="/nsl/editor/names/91851" data-tab-url="/nsl/editor/names/91851/tab/active_tab_goes_here" data-record-id="91851" data-record-type="name" tabindex="5444">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5445" title="Name record.  Select to show details." id="name-91851">
+       Angophora lanceolata Cav.
+[nom. illeg., nom. superfl.]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91860" class="search-result " data-get-url="/nsl/editor/names/91860" data-edit-url="/nsl/editor/names/91860" data-base-url="/nsl/editor/names/91860" data-tab-url="/nsl/editor/names/91860/tab/active_tab_goes_here" data-record-id="91860" data-record-type="name" tabindex="5545">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5546" title="Name record.  Select to show details." id="name-91860">
+       Angophora lanceolata var. angustifolia A.Gray
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91871" class="search-result " data-get-url="/nsl/editor/names/91871" data-edit-url="/nsl/editor/names/91871" data-base-url="/nsl/editor/names/91871" data-tab-url="/nsl/editor/names/91871/tab/active_tab_goes_here" data-record-id="91871" data-record-type="name" tabindex="5646">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5647" title="Name record.  Select to show details." id="name-91871">
+       Angophora lanceolata var. hispida A.Gray
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91878" class="search-result " data-get-url="/nsl/editor/names/91878" data-edit-url="/nsl/editor/names/91878" data-base-url="/nsl/editor/names/91878" data-tab-url="/nsl/editor/names/91878/tab/active_tab_goes_here" data-record-id="91878" data-record-type="name" tabindex="5747">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5748" title="Name record.  Select to show details." id="name-91878">
+       Angophora lanceolata Cav. var. lanceolata
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91883" class="search-result " data-get-url="/nsl/editor/names/91883" data-edit-url="/nsl/editor/names/91883" data-base-url="/nsl/editor/names/91883" data-tab-url="/nsl/editor/names/91883/tab/active_tab_goes_here" data-record-id="91883" data-record-type="name" tabindex="5848">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5849" title="Name record.  Select to show details." id="name-91883">
+       Angophora lanceolata var. woodsiana (F.M.Bailey) Maiden
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-123435" class="search-result " data-get-url="/nsl/editor/names/123435" data-edit-url="/nsl/editor/names/123435" data-base-url="/nsl/editor/names/123435" data-tab-url="/nsl/editor/names/123435/tab/active_tab_goes_here" data-record-id="123435" data-record-type="name" tabindex="5949">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5950" title="Name record.  Select to show details." id="name-123435">
+       Angophora leiocarpa (L.A.S.Johnson ex G.J.Leach) K.R.Thiele &amp; Ladiges
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91894" class="search-result " data-get-url="/nsl/editor/names/91894" data-edit-url="/nsl/editor/names/91894" data-base-url="/nsl/editor/names/91894" data-tab-url="/nsl/editor/names/91894/tab/active_tab_goes_here" data-record-id="91894" data-record-type="name" tabindex="6050">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6051" title="Name record.  Select to show details." id="name-91894">
+       Angophora melanoxylon R.T.Baker 12th last record
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777193" class="search-result " data-get-url="/nsl/editor/names/51777193" data-edit-url="/nsl/editor/names/51777193" data-base-url="/nsl/editor/names/51777193" data-tab-url="/nsl/editor/names/51777193/tab/active_tab_goes_here" data-record-id="51777193" data-record-type="name" tabindex="6151">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6152" title="Name record.  Select to show details." id="name-51777193">
+       Angophora null E.'t Hart 11th last record
+[n/a]
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91905" class="search-result " data-get-url="/nsl/editor/names/91905" data-edit-url="/nsl/editor/names/91905" data-base-url="/nsl/editor/names/91905" data-tab-url="/nsl/editor/names/91905/tab/active_tab_goes_here" data-record-id="91905" data-record-type="name" tabindex="6252">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6253" title="Name record.  Select to show details." id="name-91905">
+       Angophora ochrophylla R.T.Baker 10th last record
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-133966" class="search-result " data-get-url="/nsl/editor/names/133966" data-edit-url="/nsl/editor/names/133966" data-base-url="/nsl/editor/names/133966" data-tab-url="/nsl/editor/names/133966/tab/active_tab_goes_here" data-record-id="133966" data-record-type="name" tabindex="6353">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6354" title="Name record.  Select to show details." id="name-133966">
+       Angophora paludosa (G.J.Leach) K.R.Thiele &amp; Ladiges 9th last record
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-118574" class="search-result " data-get-url="/nsl/editor/names/118574" data-edit-url="/nsl/editor/names/118574" data-base-url="/nsl/editor/names/118574" data-tab-url="/nsl/editor/names/118574/tab/active_tab_goes_here" data-record-id="118574" data-record-type="name" tabindex="6454">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6455" title="Name record.  Select to show details." id="name-118574">
+       Angophora robur L.A.S.Johnson &amp; K.D.Hill 8th last record
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303234" class="search-result " data-get-url="/nsl/editor/names/51303234" data-edit-url="/nsl/editor/names/51303234" data-base-url="/nsl/editor/names/51303234" data-tab-url="/nsl/editor/names/51303234/tab/active_tab_goes_here" data-record-id="51303234" data-record-type="name" tabindex="6555">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6556" title="Name record.  Select to show details." id="name-51303234">
+       Angophora sp. 7th last record
+[n/a]
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303410" class="search-result " data-get-url="/nsl/editor/names/51303410" data-edit-url="/nsl/editor/names/51303410" data-base-url="/nsl/editor/names/51303410" data-tab-url="/nsl/editor/names/51303410/tab/active_tab_goes_here" data-record-id="51303410" data-record-type="name" tabindex="6656">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6657" title="Name record.  Select to show details." id="name-51303410">
+       Angophora sp. 6th last record
+[n/a]
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303407" class="search-result " data-get-url="/nsl/editor/names/51303407" data-edit-url="/nsl/editor/names/51303407" data-base-url="/nsl/editor/names/51303407" data-tab-url="/nsl/editor/names/51303407/tab/active_tab_goes_here" data-record-id="51303407" data-record-type="name" tabindex="6757">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6758" title="Name record.  Select to show details." id="name-51303407">
+       Angophora sp. 5th last record
+[n/a]
+    </a>
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303326" class="search-result " data-get-url="/nsl/editor/names/51303326" data-edit-url="/nsl/editor/names/51303326" data-base-url="/nsl/editor/names/51303326" data-tab-url="/nsl/editor/names/51303326/tab/active_tab_goes_here" data-record-id="51303326" data-record-type="name" tabindex="6858">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6859" title="Name record.  Select to show details." id="name-51303326">
+       Angophora sp. 4th last record
+[n/a]
+    </a>
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91914" class="search-result " data-get-url="/nsl/editor/names/91914" data-edit-url="/nsl/editor/names/91914" data-base-url="/nsl/editor/names/91914" data-tab-url="/nsl/editor/names/91914/tab/active_tab_goes_here" data-record-id="91914" data-record-type="name" tabindex="6959">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6960" title="Name record.  Select to show details." id="name-91914">
+       Angophora subvelutina F.Muell. 3rd last record
+    </a>
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91925" class="search-result " data-get-url="/nsl/editor/names/91925" data-edit-url="/nsl/editor/names/91925" data-base-url="/nsl/editor/names/91925" data-tab-url="/nsl/editor/names/91925/tab/active_tab_goes_here" data-record-id="91925" data-record-type="name" tabindex="7060">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="7061" title="Name record.  Select to show details." id="name-91925">
+       Angophora velutina F.Muell. 2nd last record
+[orth. var.]
+    </a>
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91935" class="search-result " data-get-url="/nsl/editor/names/91935" data-edit-url="/nsl/editor/names/91935" data-base-url="/nsl/editor/names/91935" data-tab-url="/nsl/editor/names/91935/tab/active_tab_goes_here" data-record-id="91935" data-record-type="name" tabindex="7161">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="7162" title="Name record.  Select to show details." id="name-91935">
+       Angophora woodsiana F.M.Bailey last record
+    </a>
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+<tr>
+  <!-- final record to make sure last 10 or so search results actually scroll into view -->
+  <td colspan="9" class="min-with-40-percent width-50-percent max-width-60-percent">
+    <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br>
+    <br>
+  </td>
+  <td class="width-5-percent filler"></td>
+</tr>
+</tbody>
+</table>
+</div> 
+</tab>
+
+
+
+
+
+
+
+   <tab class="tab">
+       <input id="query-help-radio" type="radio" name="results-tab-group" unchecked>
+       <label for="query-help-radio">Query Help</label>
+       
+       <div class="tab-content hidden">
+            <div id="name-search-help" class="general-results-tab-content search-help" data-loaded="true"><h4>Name search</h4>
+<p>Names listed in alphabetical order.  
+</p><p>Common and cultivar names are excluded by default.
+<br>
+<br>
+</p><h5>Quick start for Name search</h5>
+<p>Type the first character or word in the name.
+</p><p>Start the search by pressing Enter or clicking the "Search" button....
+</p><p>or leave a space then enter another fragment of the name.
+</p><p>Start the search.
+</p><p>The Editor searches very broadly - it adds a trailing wildcard and also treats spaces as wildcards.
+</p><p>It does not add a leading wildcard to name search terms - to keep searches as fast as possible.
+</p><p> E.g.  <a class="blue" title="example search" href="/nsl/editor/search?query_string=grev+queen&amp;query_target=name">grev queen</a>,
+<a class="blue" title="example search" href="/nsl/editor/search?query_string=bank+spin&amp;query_target=name">bank spin</a>
+or  <a class="blue" title="example search" href="/nsl/editor/search?query_string=e+costata&amp;query_target=name">e costata</a>
+<br>
+<br>
+</p><h5>Order of terms is important for name searches</h5>
+<p>Whatever fragments you enter need to be in the order you expect them in the name or names.
+<br>
+</p><p>If you do not know how the name starts, lead with a wildcard ("*").  E.g.  <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=%2Aqueensland+form&amp;query_target=name">*queensland form</a>
+</p><p>But this search should be faster: <a class="blue" title="example search" href="/nsl/editor/search?query_string=g%2Aqueensland+form&amp;query_target=name">g*queensland form</a>.
+
+<br>
+<br>
+</p><h4>Common and Cultivars in Name searches</h4>
+<p>Name searches may or may not include common and cultivar names.
+</p><p>There is a toggle to set this preference - either On or Off.
+
+</p><p>When set Off, common and cultivar names will be excluded from the search unless your search requires them to be included.
+</p><p>Searches by record ID or searches that specify a name type which includes common or cultivars ("type:*","type:cultivar") are examples that require common and cultivars to be included.
+</p><p>When set On, common and cultivar names will be included in the search unless your search excludes them from the result.
+</p><p>A search that specifies "nt:scientific" is an example that would exclude common and cultivars even if the setting is On.
+
+
+
+<br>
+<br>
+  </p><h4>Showing Instances</h4>
+  A successful Name search returns a list of names by default.
+  <p>
+  </p><p>
+  You can ask for Instances as well as Names in the results by adding the <code>show-instances:</code> directive to the search.
+  </p><p>
+  This directive takes no argument.
+  </p><p>
+  The <code>show-instances:</code> directive also has abbreviations: <code>s-i:</code>, <code>si:</code>, and <code>i:</code> that all do the same thing.
+
+<br>
+<br>
+  </p><h4>Searchable Name fields</h4>
+  <h5>Name</h5>
+<table class="table table-striped">
+  <tbody><tr><th>Field</th><th>Description</th></tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="" title="Add &quot;&quot; field to search.">
+        <span class="blue"></span>
+      </a>
+    </td>
+    <td>Default search is on the fully qualified <span class="purple">name</span>, see more about name search below.</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="name:" title="Add &quot;name:&quot; field to search.">
+        <span class="blue">name:</span>
+      </a>
+    </td>
+    <td>Name refers to the fully qualified name, with authorities.
+     <br>Leading and trailing wildcards are added to your search term. *</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="name-exact:" title="Add &quot;name-exact:&quot; field to search.">
+        <span class="blue">name-exact:</span>
+      </a>
+    </td>
+    <td>This searches the same fully qualified name field as name:      (above), but no wildcards are added. *</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="simple-name:" title="Add &quot;simple-name:&quot; field to search.">
+        <span class="blue">simple-name:</span>
+      </a>
+    </td>
+    <td>Simple name is the full name without the authorities. e.g.
+     "Acacia" in "Acacia Mill.", "Banksia paludosa" in "Banksia paludosa R.Br.".
+     <br>Leading and trailing wildcards are added to your search term. *</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="simple-name-exact:" title="Add &quot;simple-name-exact:&quot; field to search.">
+        <span class="blue">simple-name-exact:</span>
+      </a>
+    </td>
+    <td>This searches the same fully qualified name field as      simple-name: (above), but no wildcards are added. *</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="name-element:" title="Add &quot;name-element:&quot; field to search.">
+        <span class="blue">name-element:</span>
+      </a>
+    </td>
+    <td>Name element is the unique part of the name. e.g.      "Acacia" in "Acacia Mill.", "paludosa" in "Banksia paludosa R.Br.".
+     <br>Leading and trailing wildcards are added to your search term. *</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="name-element-exact:" title="Add &quot;name-element-exact:&quot; field to search.">
+        <span class="blue">name-element-exact:</span>
+      </a>
+    </td>
+    <td>This searches the same fully qualified name field as      name-element: (above), but no wildcards are added. *</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="verbatim-rank:" title="Add &quot;verbatim-rank:&quot; field to search.">
+        <span class="blue">verbatim-rank:</span>
+      </a>
+    </td>
+    <td>Searches verbatim rank. Adds wildcards at both ends.</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="name-path:" title="Add &quot;name-path:&quot; field to search.">
+        <span class="blue">name-path:</span>
+      </a>
+    </td>
+    <td>Searches the name path field, which is mostly hidden but used for sorting. You can add your own wildcards.</td>
+      <td></td>
+  </tr>
+</tbody></table>
+
+<p>* Supports search for empty fields.</p>
+<p>** Supports search for non-existing field.</p>
+
+  <h5>Coded fields</h5>
+<table class="table table-striped">
+  <tbody><tr><th>Field</th><th>Description</th><th>Values</th></tr>
+  <tr><td></td><td></td><td>(The lists below are for convenient viewing of values - selecting them doesn't add them to the search)</td></tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="rank:" title="Add &quot;rank:&quot; field to search.">
+        <span class="blue">rank:</span>
+      </a>
+    </td>
+    <td>name rank, allows comma-separated multiple values, single values, and single values with wildcards</td>
+      <td>      <select name="name_search_name_ranked_below" id="name_search_name_ranked_below" title="Select one name rank" autocomplete="off"><option value="" label=" "></option><option value="below-rank: regio">Regio</option>
+<option value="below-rank: regnum">Regnum</option>
+<option value="below-rank: division">Division</option>
+<option value="below-rank: classis">Classis</option>
+<option value="below-rank: subclassis">Subclassis</option>
+<option value="below-rank: superordo">Superordo</option>
+<option value="below-rank: ordo">Ordo</option>
+<option value="below-rank: subordo">Subordo</option>
+<option value="below-rank: familia">Familia</option>
+<option value="below-rank: subfamilia">Subfamilia</option>
+<option value="below-rank: tribus">Tribus</option>
+<option value="below-rank: subtribus">Subtribus</option>
+<option value="below-rank: genus">Genus</option>
+<option value="below-rank: subgenus">Subgenus</option>
+<option value="below-rank: sectio">Sectio</option>
+<option value="below-rank: subsectio">Subsectio</option>
+<option value="below-rank: series">Series</option>
+<option value="below-rank: subseries">Subseries</option>
+<option value="below-rank: superspecies">Superspecies</option>
+<option value="below-rank: species">Species</option>
+<option value="below-rank: subspecies">Subspecies</option>
+<option value="below-rank: varietas">Varietas</option>
+<option value="below-rank: nothovarietas">Nothovarietas</option>
+<option value="below-rank: subvarietas">Subvarietas</option>
+<option value="below-rank: forma">Forma</option>
+<option value="below-rank: subforma">Subforma</option>
+<option value="below-rank: [infragenus]">[infragenus]</option>
+<option value="below-rank: [n/a]">[n/a]</option>
+<option value="below-rank: [infraspecies]">[infraspecies]</option>
+<option value="below-rank: [unranked]">[unranked]</option>
+<option value="below-rank: [infrafamily]">[infrafamily]</option></select>
+
+</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="above-rank:" title="Add &quot;above-rank:&quot; field to search.">
+        <span class="blue">above-rank:</span>
+      </a>
+    </td>
+    <td>search for names above a specified taxon rank (single value only)</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="below-rank:" title="Add &quot;below-rank:&quot; field to search.">
+        <span class="blue">below-rank:</span>
+      </a>
+    </td>
+    <td>search for names below a specified taxon rank (single value only)</td>
+      <td></td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="status:" title="Add &quot;status:&quot; field to search.">
+        <span class="blue">status:</span>
+      </a>
+    </td>
+    <td>name status, allows comma-separated multiple values, single values, and single values with wildcards</td>
+      <td>      <select name="name_search_name_status_id" id="name_search_name_status_id" title="Select one status" autocomplete="off" class=""><option value="" label=" "></option><option value="status: isonym">isonym</option>
+<option value="status: legitimate">legitimate</option>
+<option value="status: manuscript name">manuscript name</option>
+<option value="status: nom. alt.">nom. alt.</option>
+<option value="status: nom. alt., nom. illeg">nom. alt., nom. illeg</option>
+<option value="status: nom. cons.">nom. cons.</option>
+<option value="status: nom. cons., nom. alt.">nom. cons., nom. alt.</option>
+<option value="status: nom. cons., orth. cons.">nom. cons., orth. cons.</option>
+<option value="status: nom. cult.">nom. cult.</option>
+<option value="status: nom. cult., nom. alt.">nom. cult., nom. alt.</option>
+<option value="status: nom. et orth. cons.">nom. et orth. cons.</option>
+<option value="status: nom. et typ. cons.">nom. et typ. cons.</option>
+<option value="status: nom. illeg.">nom. illeg.</option>
+<option value="status: nom. illeg., nom. rej.">nom. illeg., nom. rej.</option>
+<option value="status: nom. illeg., nom. superfl.">nom. illeg., nom. superfl.</option>
+<option value="status: nom. inval.">nom. inval.</option>
+<option value="status: nom. inval., nom. alt.">nom. inval., nom. alt.</option>
+<option value="status: nom. inval., nom. ambig.">nom. inval., nom. ambig.</option>
+<option value="status: nom. inval., nom. confus.">nom. inval., nom. confus.</option>
+<option value="status: nom. inval., nom. dub.">nom. inval., nom. dub.</option>
+<option value="status: nom. inval., nom. nud.">nom. inval., nom. nud.</option>
+<option value="status: nom. inval., nom. prov.">nom. inval., nom. prov.</option>
+<option value="status: nom. inval., nom. subnud.">nom. inval., nom. subnud.</option>
+<option value="status: nom. inval., opera utique oppressa">nom. inval., opera utique oppressa</option>
+<option value="status: nom. inval., pro syn.">nom. inval., pro syn.</option>
+<option value="status: nom. inval., tautonym">nom. inval., tautonym</option>
+<option value="status: nom. rej.">nom. rej.</option>
+<option value="status: nom. superfl.">nom. superfl.</option>
+<option value="status: nomina utique rejicienda">nomina utique rejicienda</option>
+<option value="status: orth. cons.">orth. cons.</option>
+<option value="status: orth. var.">orth. var.</option>
+<option value="status: typ. cons.">typ. cons.</option>
+<option value="status: [default]">[default]</option>
+<option value="status: [n/a]">[n/a]</option>
+<option value="status: [unknown]">[unknown]</option></select>
+
+</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="type:" title="Add &quot;type:&quot; field to search.">
+        <span class="blue">type:</span>
+      </a>
+    </td>
+    <td>name type, allows comma-separated multiple values, single values, and single values with wildcards</td>
+      <td><select id="name-advanced-search-name-type-options" title="Name type options. Comma-separated list. Or wildcard.">
+<option class="" value=""></option>
+<optgroup label="Scientific">
+<option class="" value="autonym">autonym</option>
+<option class="" value="hybrid autonym">hybrid autonym</option>
+<option class="" value="hybrid formula parents known">hybrid formula parents known</option>
+<option class="" value="hybrid formula unknown 2nd parent">hybrid formula unknown 2nd parent</option>
+<option class="" value="intergrade">intergrade</option>
+<option class="" value="named hybrid">named hybrid</option>
+<option class="" value="named hybrid autonym">named hybrid autonym</option>
+<option class="" value="phrase name">phrase name</option>
+<option class="" value="sanctioned">sanctioned</option>
+<option class="" value="scientific">scientific</option>
+</optgroup>
+<optgroup label="Cultivars">
+<option class="" value="cultivar">cultivar</option>
+<option class="" value="cultivar hybrid">cultivar hybrid</option>
+<option class="" value="cultivar hybrid formula">cultivar hybrid formula</option>
+<option class="" value="graft/chimera">graft/chimera</option>
+</optgroup>
+<optgroup label="Common, informal">
+<option class="" value="common">common</option>
+<option class="" value="informal">informal</option>
+</optgroup>
+<optgroup label="Other">
+<option class="" value="[default]">[default]</option>
+<option class="" value="[n/a]">[n/a]</option>
+<option class="" value="[unknown]">[unknown]</option>
+</optgroup>
+</select>
+
+</td>
+  </tr>
+</tbody></table>
+<p>Rank, status and type are mandatory fields so there is no point searching for empty values.</p>
+<br>
+  <h5>Authorities</h5>
+<table class="table table-striped">
+  <tbody><tr><th>Field</th><th>Description</th></tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="author:" title="Add &quot;author:&quot; field to search.">
+          <span class="blue">author:</span>
+        </a>
+    </td>
+    <td>author abbreviation *</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="ex-author:" title="Add &quot;ex-author:&quot; field to search.">
+          <span class="blue">ex-author:</span>
+        </a>
+    </td>
+    <td>ex-author abbreviation *</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="base-author:" title="Add &quot;base-author:&quot; field to search.">
+          <span class="blue">base-author:</span>
+        </a>
+    </td>
+    <td>base author abbreviation *</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="ex-base-author:" title="Add &quot;ex-base-author:&quot; field to search.">
+          <span class="blue">ex-base-author:</span>
+        </a>
+    </td>
+    <td>ex-base author abbreviation *</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="sanctioning-author:" title="Add &quot;sanctioning-author:&quot; field to search.">
+          <span class="blue">sanctioning-author:</span>
+        </a>
+    </td>
+    <td>sanctioning author abbreviation *</td>
+  </tr>
+</tbody></table>
+<p>* Supports search for empty fields - use the -id version e.g. author-id:.</p>
+<br>
+
+<h5>Assertions</h5>
+  <h6>Missing authorities</h6>
+<table class="table table-striped">
+  <tbody><tr><th>Field</th><th>Description</th></tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-author:" title="Add &quot;has-no-author:&quot; field to search.">
+          <span class="blue">has-no-author:</span>
+        </a>
+    </td>
+    <td>has no author abbreviation</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-ex-author:" title="Add &quot;has-no-ex-author:&quot; field to search.">
+          <span class="blue">has-no-ex-author:</span>
+        </a>
+    </td>
+    <td>has no ex-author abbreviation</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-base-author:" title="Add &quot;has-no-base-author:&quot; field to search.">
+          <span class="blue">has-no-base-author:</span>
+        </a>
+    </td>
+    <td>has no base author abbreviation</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-ex-base-author:" title="Add &quot;has-no-ex-base-author:&quot; field to search.">
+          <span class="blue">has-no-ex-base-author:</span>
+        </a>
+    </td>
+    <td>has no ex-base author abbreviation</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-sanctioning-author:" title="Add &quot;has-no-sanctioning-author:&quot; field to search.">
+          <span class="blue">has-no-sanctioning-author:</span>
+        </a>
+    </td>
+    <td>has no sanctioning author abbreviation</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-authors:" title="Add &quot;has-no-authors:&quot; field to search.">
+          <span class="blue">has-no-authors:</span>
+        </a>
+    </td>
+    <td>has no authors of any kind</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h6>Duplication Assertions</h6>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-a-duplicate:" title="Add &quot;is-a-duplicate:&quot; field to search.">
+          <span class="blue">is-a-duplicate:</span>
+        </a>
+    </td>
+    <td>marked as a duplicate</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-not-a-duplicate:" title="Add &quot;is-not-a-duplicate:&quot; field to search.">
+          <span class="blue">is-not-a-duplicate:</span>
+        </a>
+    </td>
+    <td>not marked as a duplicate</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="duplicate-simple-names:" title="Add &quot;duplicate-simple-names:&quot; field to search.">
+          <span class="blue">duplicate-simple-names:</span>
+        </a>
+    </td>
+    <td>not actually an assertion, but related: more than one name with the same 'simple' name value</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="duplicate-full-names:" title="Add &quot;duplicate-full-names:&quot; field to search.">
+          <span class="blue">duplicate-full-names:</span>
+        </a>
+    </td>
+    <td>not actually an assertion, but related: more than one name with the same 'full' name value</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h6>Parent-Child Queries</h6>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-a-parent:" title="Add &quot;is-a-parent:&quot; field to search.">
+          <span class="blue">is-a-parent:</span>
+        </a>
+    </td>
+    <td>records exist with this marked as their parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-not-a-parent:" title="Add &quot;is-not-a-parent:&quot; field to search.">
+          <span class="blue">is-not-a-parent:</span>
+        </a>
+    </td>
+    <td>no records exist with this marked as their parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-parent:" title="Add &quot;has-no-parent:&quot; field to search.">
+          <span class="blue">has-no-parent:</span>
+        </a>
+    </td>
+    <td>has no parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-a-child:" title="Add &quot;is-a-child:&quot; field to search.">
+          <span class="blue">is-a-child:</span>
+        </a>
+    </td>
+    <td>has a parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-not-a-child:" title="Add &quot;is-not-a-child:&quot; field to search.">
+          <span class="blue">is-not-a-child:</span>
+        </a>
+    </td>
+    <td>has no parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="first-parent-descendants-of-id:" title="Add &quot;first-parent-descendants-of-id:&quot; field to search.">
+          <span class="blue">first-parent-descendants-of-id:</span>
+        </a>
+    </td>
+    <td>descendant names via parent_id (not second_parent_id - not implemented yet)</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="descendants-of-id:" title="Add &quot;descendants-of-id:&quot; field to search.">
+          <span class="blue">descendants-of-id:</span>
+        </a>
+    </td>
+    <td>descendant names via parent_id (not second_parent_id - not implemented yet)</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h6>Second Parent-Child Assertions</h6>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-a-second-parent:" title="Add &quot;is-a-second-parent:&quot; field to search.">
+          <span class="blue">is-a-second-parent:</span>
+        </a>
+    </td>
+    <td>a record exists with this as its second parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-not-a-second-parent:" title="Add &quot;is-not-a-second-parent:&quot; field to search.">
+          <span class="blue">is-not-a-second-parent:</span>
+        </a>
+    </td>
+    <td>no record exists with this as its second parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-a-second-parent:" title="Add &quot;has-a-second-parent:&quot; field to search.">
+          <span class="blue">has-a-second-parent:</span>
+        </a>
+    </td>
+    <td>has second parent</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-second-parent:" title="Add &quot;has-no-second-parent:&quot; field to search.">
+          <span class="blue">has-no-second-parent:</span>
+        </a>
+    </td>
+    <td>has no second parent</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h6>Instance Assertions</h6>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-instances:" title="Add &quot;has-instances:&quot; field to search.">
+          <span class="blue">has-instances:</span>
+        </a>
+    </td>
+    <td>instances exist for this name</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-instances:" title="Add &quot;has-no-instances:&quot; field to search.">
+          <span class="blue">has-no-instances:</span>
+        </a>
+    </td>
+    <td>no instances exist for this name</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-no-primary-instance:" title="Add &quot;has-no-primary-instance:&quot; field to search.">
+          <span class="blue">has-no-primary-instance:</span>
+        </a>
+    </td>
+    <td>the name has at least one instance but no primary instance</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-multiple-primary-instances:" title="Add &quot;has-multiple-primary-instances:&quot; field to search.">
+          <span class="blue">has-multiple-primary-instances:</span>
+        </a>
+    </td>
+    <td>the name has at least two primary instances</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-orth-var-with-no-orth-var-instances:" title="Add &quot;is-orth-var-with-no-orth-var-instances:&quot; field to search.">
+          <span class="blue">is-orth-var-with-no-orth-var-instances:</span>
+        </a>
+    </td>
+    <td>name has status orth. var. but it has no orthographic variant type instance</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="is-orth-var-and-sec-ref-first:" title="Add &quot;is-orth-var-and-sec-ref-first:&quot; field to search.">
+          <span class="blue">is-orth-var-and-sec-ref-first:</span>
+        </a>
+    </td>
+    <td>name status orth. var. but earliest instance        (by reference year) is a secondary reference</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="has-multiple-basionyms:" title="Add &quot;has-multiple-basionyms:&quot; field to search.">
+          <span class="blue">has-multiple-basionyms:</span>
+        </a>
+    </td>
+    <td>name has at least one standalone instance which is itself        cited by more than 1 basionym usage</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h5>Associated Reference Search</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="ref-title:" title="Add &quot;ref-title:&quot; field to search.">
+          <span class="blue">ref-title:</span>
+        </a>
+    </td>
+    <td>exact search on refence title associated with the name (supply your own wildcards)</td>
+  </tr>
+</tbody></table>
+<br>
+
+<h5>Accepted Instance Note Search</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="instance-note:" title="Add &quot;instance-note:&quot; field to search.">
+          <span class="blue">instance-note:</span>
+        </a>
+    </td>
+    <td>look for names with at least one instance note containing the string you enter after the directive</td>
+  </tr>
+</tbody></table>
+
+<h5>Name Status Assertion or Category Search</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="name-status-nom-illeg:" title="Add &quot;name-status-nom-illeg:&quot; field to search.">
+          <span class="blue">name-status-nom-illeg:</span>
+        </a>
+    </td>
+    <td>look for names with a status in the category 'nom. illeg.'</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="nom-illeg:" title="Add &quot;nom-illeg:&quot; field to search.">
+          <span class="blue">nom-illeg:</span>
+        </a>
+    </td>
+    <td>look for names with a status in the category 'nom. illeg.'</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="name-status-nom-inval:" title="Add &quot;name-status-nom-inval:&quot; field to search.">
+          <span class="blue">name-status-nom-inval:</span>
+        </a>
+    </td>
+    <td>look for names with a status in the category 'nom. inval.'</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="nom-inval:" title="Add &quot;nom-inval:&quot; field to search.">
+          <span class="blue">nom-inval:</span>
+        </a>
+    </td>
+    <td>look for names with a status in the category 'nom. inval.'</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="nom-inval-with-orth-var:" title="Add &quot;nom-inval-with-orth-var:&quot; field to search.">
+          <span class="blue">nom-inval-with-orth-var:</span>
+        </a>
+    </td>
+    <td>look for names with a status in the category 'nom. inval.' attached to orth var instances</td>
+  </tr>
+</tbody></table>
+<br>
+
+<h5>Accepted Taxonomy Search</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="in-accepted-tree:" title="Add &quot;in-accepted-tree:&quot; field to search.">
+          <span class="blue">in-accepted-tree:</span>
+        </a>
+    </td>
+    <td>restrict names to those explicitly accepted in or excluded from the accepted tree</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="accepted-in-accepted-tree:" title="Add &quot;accepted-in-accepted-tree:&quot; field to search.">
+          <span class="blue">accepted-in-accepted-tree:</span>
+        </a>
+    </td>
+    <td>restrict names to those explicitly accepted in the accepted tree</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="excluded-from-accepted-tree:" title="Add &quot;excluded-from-accepted-tree:&quot; field to search.">
+          <span class="blue">excluded-from-accepted-tree:</span>
+        </a>
+    </td>
+    <td>restrict names to those explicitly excluded from the accepted tree</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="not-in-accepted-tree:" title="Add &quot;not-in-accepted-tree:&quot; field to search.">
+          <span class="blue">not-in-accepted-tree:</span>
+        </a>
+    </td>
+    <td>restrict names to those not explicitly accepted in or excluded from the accepted tree</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="accepted-name-without-distribution:" title="Add &quot;accepted-name-without-distribution:&quot; field to search.">
+          <span class="blue">accepted-name-without-distribution:</span>
+        </a>
+    </td>
+    <td>accepted names in the current accepted taxonomy with no profile distribution - mostly higher taxa</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="accepted-name-with-dist-but-no-bubbles:" title="Add &quot;accepted-name-with-dist-but-no-bubbles:&quot; field to search.">
+          <span class="blue">accepted-name-with-dist-but-no-bubbles:</span>
+        </a>
+    </td>
+    <td>accepted names in the current accepted taxonomy with a profile distribution, but no 'bubbles. Show instances on results to drill in.'</td>
+  </tr>
+</tbody></table>
+<br>
+
+<h5>Quality Control Checks</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="possibly-malformed:" title="Add &quot;possibly-malformed:&quot; field to search.">
+          <span class="blue">possibly-malformed:</span>
+        </a>
+    </td>
+    <td>search for names attached to a genus that don't start with the genus name - they might be malformed</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="bad-name-path:" title="Add &quot;bad-name-path:&quot; field to search.">
+          <span class="blue">bad-name-path:</span>
+        </a>
+    </td>
+    <td>search for names that have a malformed name-path i.e. based on comparison with its parent's name-path</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h5>Family queries</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="family-id:" title="Add &quot;family-id:&quot; field to search.">
+          <span class="blue">family-id:</span>
+        </a>
+    </td>
+    <td>search for names attached directly to a family</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="no-family-id:" title="Add &quot;no-family-id:&quot; field to search.">
+          <span class="blue">no-family-id:</span>
+        </a>
+    </td>
+    <td>search for names not attached directly to a family -- tip: combine this with a name-rank: query </td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="in-own-family:" title="Add &quot;in-own-family:&quot; field to search.">
+          <span class="blue">in-own-family:</span>
+        </a>
+    </td>
+    <td>search for names not attached directly to themselves as a family</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="fam-in-other-family:" title="Add &quot;fam-in-other-family:&quot; field to search.">
+          <span class="blue">fam-in-other-family:</span>
+        </a>
+    </td>
+    <td>search for family names in a family but not their own family - that is, name.id != name.family_id</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+        <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="parent-different-to-family:" title="Add &quot;parent-different-to-family:&quot; field to search.">
+          <span class="blue">parent-different-to-family:</span>
+        </a>
+    </td>
+    <td>search for names whose family is different to their parent - ideally combined with rank: genus to find interesting cases</td>
+  </tr>
+</tbody></table>
+<br>
+
+<h5>Comments</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent"><a href="javascript:void(0)" data-search-directive="comments:" class="searchable-field width-100-percent" title="Add &quot;comments:&quot; field to search.">
+        <span class="blue">comments:</span></a>
+    </td>
+    <td>comment text, with leading and trailing wildcards added automatically. * </td>
+  </tr>
+  <tr>
+    <td class="width-20-percent"><a href="javascript:void(0)" data-search-directive="comments-exact:" class="searchable-field width-100-percent" title="Add &quot;comments-exact:&quot; field to search.">
+        <span class="blue">comments-exact:</span></a>
+    </td>
+    <td>comment text</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent"><a href="javascript:void(0)" data-search-directive="comments-by:" class="searchable-field width-100-percent" title="Add &quot;comments-by:&quot; field to search.">
+        <span class="blue">comments-by:</span></a>
+    </td>
+    <td>user who commented</td>
+  </tr>
+</tbody></table>
+<p>* Supports search for empty fields.</p>
+
+<h5>ID</h5>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="id:" title="Add &quot;id:&quot; field to search.">
+        <span class="blue">id:</span></a>
+    </td>
+    <td>one id or comma separated ids</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent">
+      <a href="javascript:void(0)" class="searchable-field width-100-percent" data-search-directive="ids:" title="Add &quot;ids:&quot; field to search.">
+        <span class="blue">ids:</span></a>
+    </td>
+    <td>one id or comma separated ids</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+<h5>Source</h5>
+<p>Useful for records imported from other systems where the source details have been retained.</p>
+<table class="table table-striped">
+  <tbody><tr>
+    <td class="width-20-percent"><a href="javascript:void(0)" data-search-directive="source-id:" class="searchable-field width-100-percent" title="Add &quot;source-id:&quot; field to search.">
+        <span class="blue">source-id:</span></a>
+    </td>
+    <td>query the original ID of names loaded from other systems e.g. old APNI;  expects one ID or several comma separated IDs; source IDs are displayed at the bottom of the Name Details tab</td>
+  </tr>
+  <tr>
+    <td class="width-20-percent"><a href="javascript:void(0)" data-search-directive="source-sytem:" class="searchable-field width-100-percent" title="Add &quot;source-sytem:&quot; field to search.">
+        <span class="blue">source-sytem:</span></a>
+    </td>
+    <td>query the original source system of names loaded from other systems - the system identifier is displayed at the bottom of the Name Details tab; case-insensitive, takes a wildcard; useful when data has been imported from multiple systems</td>
+  </tr>
+</tbody></table>
+<br>
+
+<div id="case-and-wildcards-search-help">
+<hr>
+<h4>Case and Wildcards in Searches</h4>
+    <p>Editor searches are all <strong>case-insensitive</strong>.
+    </p><p>Editor searches on text fields allow you to add <strong>wildcards</strong>. e.g. "*"
+    </p><p>Fields for which the Editor adds its own wildcards are noted and an "-exact" version of the field is provided that adds no wildcards.
+    </p><p>You can add your own wildcards to "-exact" fields.
+  <br>
+  <br>
+  <br>
+</p></div>
+
+
+
+
+</div>
+       </div> 
+   </tab>
+   <tab class="tab">
+       <input id="query-examples-radio" type="radio" name="results-tab-group" unchecked>
+       <label for="query-examples-radio">Query Examples</label>
+       
+       <div class="tab-content hidden">
+            <div id="name-search-examples" class="search-examples general-results-tab-content" data-loaded="true"><div id="example-search-name" class="example-search-tab">
+<h4>Name search examples</h4>
+<br>
+<br>
+
+<h5 class="">List names</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia&amp;query_target=Names">acacia</a>
+    </td>
+    <td>List names starting with "acacia".  Bare search is on names. 100 records is the default.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+limit%3A+1+offset%3A+99&amp;query_target=Names">acacia limit: 1 offset: 99</a>
+    </td>
+    <td>List the 100th name starting with "acacia".</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+limit%3A+100+offset%3A+200&amp;query_target=Names">acacia limit: 100 offset: 200</a>
+    </td>
+    <td>List the 201st - 300th names starting with "acacia".</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+type%3A%2A&amp;query_target=Names">acacia type:*</a>
+    </td>
+    <td>Also include common and cultivar names which are normally excluded (i.e. <span class="purple" title="Excluding common and cultivar names by default">EXCC</span>).</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=%2Acacia&amp;query_target=Names">*cacia</a>
+    </td>
+    <td>Find names containing "cacia". A trailing wildcard is added automatically. <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+type%3Acommon%2Ccultivar&amp;query_target=Names">acacia type:common,cultivar</a>
+    </td>
+    <td>Find just common or cultivar names exactly matching "acacia". <span class="purple" title="Including common and cultivar names.">INCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+rank%3A+genus&amp;query_target=Names">acacia rank: genus</a>
+    </td>
+    <td>List any name starting with "acacia" that is a genus. <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+rank%3A+genus+is-not-a-duplicate%3A&amp;query_target=Names">acacia rank: genus is-not-a-duplicate:</a>
+    </td>
+    <td>List any name starting with "acacia" that is a genus and is not a duplicate. <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+</tbody></table>
+
+
+<h5 class="">More complex name searches</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=p+above-rank%3A+familia+show-instances%3A+limit%3A10&amp;query_target=Names">p above-rank: familia show-instances: limit:10</a>
+    </td>
+    <td>Find the first 10 names above rank familia, with a name that starts with "p", and show their instances. <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=name%3A+b+above-rank%3A+genus+below-rank%3A+ordo+limit%3A20&amp;query_target=Names">name: b above-rank: genus below-rank: ordo limit:20</a>
+    </td>
+    <td>Find the first 20 names above rank genus, below rank ordo, with a name that starts with "b". <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+</tbody></table>
+
+<h5 class="">Simple Name and Name Element searches</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=simple-name%3A+williams&amp;query_target=Names">simple-name: williams</a>
+    </td>
+    <td>Names with simple name containing "williams".</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=name-element%3A+williams&amp;query_target=Names">name-element: williams</a>
+    </td>
+    <td>List names with name element containing "williams".</td>
+  </tr>
+</tbody></table>
+
+<h5 class="">Family searches</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=no-family-id%3A&amp;query_target=Names">no-family-id:</a>
+    </td>
+    <td>Names with not directly connected to a family.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=no-family-id%3A+name-rank%3A+species&amp;query_target=Names">no-family-id: name-rank: species</a>
+    </td>
+    <td>Species names with not directly connected to a family. Note the rank names can vary across databases</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=no-family-id%3A+name-rank%3A+familia&amp;query_target=Names">no-family-id: name-rank: familia</a>
+    </td>
+    <td>Family names with not directly connected to a family. Note the rank names can vary across databases</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=parent-different-to-family%3A+rank%3A+genus&amp;query_target=Names">parent-different-to-family: rank: genus</a>
+    </td>
+    <td>Genera whose parent is different to their family - could be valid, but not always</td>
+  </tr>
+</tbody></table>
+
+<h5 class="">Assertion queries</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=is-a-parent%3A+has-no-instances%3A&amp;query_target=Names">is-a-parent: has-no-instances:</a>
+    </td>
+    <td>List names that have children but no instances.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=has-a-second-parent%3A&amp;query_target=Names">has-a-second-parent:</a>
+    </td>
+    <td>List names that have a second parent.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=Grevillea+has-a-second-parent%3A&amp;query_target=Names">Grevillea has-a-second-parent:</a>
+    </td>
+    <td>List Grevilleas that have a second parent.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+is-orth-var-with-no-orth-var-instances%3A&amp;query_target=Names">acacia is-orth-var-with-no-orth-var-instances:</a>
+    </td>
+    <td>List orth. var. acacias with no orth. var. instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=%2Aacacia+is-orth-var-with-no-orth-var-instances%3A&amp;query_target=Names">*acacia is-orth-var-with-no-orth-var-instances:</a>
+    </td>
+    <td>List orth. var. names containing "acacia" with no orth. var. instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+status%3A+orth.+var.+has-no-instances%3A&amp;query_target=Names">acacia status: orth. var. has-no-instances:</a>
+    </td>
+    <td>List orth. var. acacias with no instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=is-orth-var-and-sec-ref-first%3A&amp;query_target=Names">is-orth-var-and-sec-ref-first:</a>
+    </td>
+    <td>List orth. vars for which the first instance is a        secondary reference.</td>
+  </tr>
+</tbody></table>
+
+
+<br>
+<h5 class="inline-block">Count names</h5><span> - turn a list into a count</span>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=count+acacia&amp;query_target=Names">count acacia</a>
+    </td>
+    <td>Count names starting with "acacia". <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=count+rank%3A+genus+is-not-a-duplicate%3A&amp;query_target=Names">count rank: genus is-not-a-duplicate:</a>
+    </td>
+    <td>Count non-duplicate genera. <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=count+acacia+type%3A%2A&amp;query_target=Names">count acacia type:*</a>
+    </td>
+    <td>Count names starting with "acacia". <span class="purple" title="Including common and cultivar names.">INCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=count+acacia+type%3Acommon%2Ccultivar&amp;query_target=Names">count acacia type:common,cultivar</a>
+    </td>
+    <td>Count common or cultivar names starting with "acacia". <span class="purple" title="Including common and cultivar names.">INCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=count+is-a-duplicate%3A&amp;query_target=Names">count is-a-duplicate:</a>
+    </td>
+    <td>Count duplicate names. <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=count+comments%3A%2A&amp;query_target=Names">count comments:*</a>
+    </td>
+    <td>Count commented names turning a text field into an assertion. <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+</tbody></table>
+<br>
+
+<h5 class="inline-block">Limit list size</h5><span> - set the number of records</span>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+limit%3A5&amp;query_target=Names">acacia limit:5</a>
+    </td>
+    <td>List 5 names starting with "acacia". <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+limit%3A50&amp;query_target=Names">acacia limit:50</a>
+    </td>
+    <td>List 50 names starting with "acacia". <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+limit%3A1000&amp;query_target=Names">acacia limit:1000</a>
+    </td>
+    <td>List 1000 names starting with "acacia". <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span>.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=acacia+limit%3A10000&amp;query_target=Names">acacia limit:10000</a>
+    </td>
+    <td>List 10000 names starting with "acacia". <span class="purple" title="Excluding common and cultivar names by default.">EXCC</span>. <span class="red">10000 is the current maximum.</span></td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=count+acacia+limit%3A10+nt%3A%2A&amp;query_target=Names">count acacia limit:10 nt:*</a>
+    </td>
+    <td>Count over-rides limit. <span class="purple" title="Including common and cultivar names.">INCC</span>.</td>
+  </tr>
+</tbody></table>
+<br>
+
+<h5 class="">Associated Reference searches</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=ref-title%3A+%2Apapua+new+guinea%2A&amp;query_target=Names">ref-title: *papua new guinea*</a>
+    </td>
+    <td>Names associated with a reference whose title contains "Papua New Guinea".</td>
+  </tr>
+</tbody></table>
+
+<h5 class="">Accepted Taxonomy searches</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=angophora+in-accepted-tree%3A&amp;query_target=Names">angophora in-accepted-tree:</a>
+    </td>
+    <td>Names matching "angophora%" specifically accepted in or excluded from the accepted tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=angophora+not-in-accepted-tree%3A&amp;query_target=Names">angophora not-in-accepted-tree:</a>
+    </td>
+    <td>Names matching "angophora%" not specifically accepted in or excluded from the accepted tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=angophora+cordata+accepted-in-accepted-tree%3A&amp;query_target=Names">angophora cordata accepted-in-accepted-tree:</a>
+    </td>
+    <td>Names matching "angophora cordata%" accepted in the accepted tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=angophora+cordata+excluded-from-accepted-tree%3A&amp;query_target=Names">angophora cordata excluded-from-accepted-tree:</a>
+    </td>
+    <td>Names matching "angophora cordata%" excluded from the accepted tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=angophora+cordata+excluded-from-accepted-tree%3A+show-instances%3A&amp;query_target=Names">angophora cordata excluded-from-accepted-tree: show-instances:</a>
+    </td>
+    <td>Names matching "angophora cordata%" excluded from the accepted taxonomy with instances.</td>
+  </tr>
+</tbody></table>
+
+<h5 class="">Accepted Taxonomy Distribution searches</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=accepted-name-without-distribution%3A&amp;query_target=Names">accepted-name-without-distribution:</a>
+    </td>
+    <td>Accepted names in the accepted taxonomy with no distribution strings to display.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=accepted-name-with-dist-but-no-bubbles%3A&amp;query_target=Names">accepted-name-with-dist-but-no-bubbles:</a>
+    </td>
+    <td>Accepted names in the accepted taxonomy with a distribution string but no bubbles.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=id%3A+88745%2C+91755%2C+99999+accepted-name-with-dist-but-no-bubbles%3A&amp;query_target=Names">id: 88745, 91755, 99999 accepted-name-with-dist-but-no-bubbles:</a>
+    </td>
+    <td>Accepted names in the accepted taxonomy with a distribution string but no bubbles, that also have one of the listed IDs. Show instances on results to drill in.</td>
+  </tr>
+</tbody></table>
+
+<h5 class="">Associated Instance searches</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=nom-inval-with-orth-var%3A&amp;query_target=Names">nom-inval-with-orth-var:</a>
+    </td>
+    <td>Invalid names identified as orthographic variant.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=c%2A+nom-inval-with-orth-var%3A&amp;query_target=Names">c* nom-inval-with-orth-var:</a>
+    </td>
+    <td>Invalid names starting with 'c' identified as orthographic variant.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=has-no-primary-instance%3A+name%3A+gal&amp;query_target=Names">has-no-primary-instance: name: gal</a>
+    </td>
+    <td>Names matching gal with no primary instance. Tick Common/Cultivars to include these in the results.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=has-no-primary-instance%3A+name%3A+gal+type%3Acommon&amp;query_target=Names">has-no-primary-instance: name: gal type:common</a>
+    </td>
+    <td>Common names matching gal with no primary instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=apium+has-no-primary-instance%3A&amp;query_target=Names">apium has-no-primary-instance:</a>
+    </td>
+    <td>Names matching apium with no primary instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=has-no-primary-instance%3A+nom-illeg%3A&amp;query_target=Names">has-no-primary-instance: nom-illeg:</a>
+    </td>
+    <td>Nom-illeg names with no primary instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=has-no-primary-instance%3A+nom-illeg%3A+name%3A+apium&amp;query_target=Names">has-no-primary-instance: nom-illeg: name: apium</a>
+    </td>
+    <td>Nom-illeg names matching apium with no primary instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the described search." href="/nsl/editor/search?query_string=has-no-primary-instance%3A+status%3A+legitimate+name%3A+apium&amp;query_target=Names">has-no-primary-instance: status: legitimate name: apium</a>
+    </td>
+    <td>Legitimate names matching apium with no primary instance.</td>
+  </tr>
+</tbody></table>
+<br>
+
+
+</div>
+
+</div>
+       </div> 
+   </tab>
+
+
+
+
+
+   <tab class="tab">
+       <input id="reports-radio" type="radio" name="results-tab-group" unchecked>
+       <label for="reports-radio">Reports</label>
+       
+       <div class="tab-content hidden">
+            <div class="search-reports general-results-tab-content">
+  <h4>Reports</h4>
+  <p>You can add other directives to these reports.
+  e.g. show-instances:, limit: 10, name: acacia </p>
+  <h5>Orth. Vars.</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-orth-var-with-no-orth-var-instances%3A&amp;query_target=Names">is-orth-var-with-no-orth-var-instances:</a>
+    </td>
+    <td>Orth. var. with no orth. var. instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-orth-var-with-no-orth-var-instances%3A+limit%3A+10+offset%3A+10&amp;query_target=Names">is-orth-var-with-no-orth-var-instances: limit: 10 offset: 10</a>
+    </td>
+    <td>Orth. var. with no orth. var. instance retrieving records 11-20.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-orth-var-with-no-orth-var-instances%3A+limit%3A+10+offset%3A+100&amp;query_target=Names">is-orth-var-with-no-orth-var-instances: limit: 10 offset: 100</a>
+    </td>
+    <td>Orth. var. with no orth. var. instance retrieving records 101-110.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-orth-var-with-no-orth-var-instances%3A+limit%3A+20+offset%3A+100&amp;query_target=Names">is-orth-var-with-no-orth-var-instances: limit: 20 offset: 100</a>
+    </td>
+    <td>Orth. var. with no orth. var. instance retrieving records 101-120.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-orth-var-and-sec-ref-first%3A&amp;query_target=Names">is-orth-var-and-sec-ref-first:</a>
+    </td>
+    <td>Orth. var. names with first instance a secondary reference.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-orth-var-and-non-primary-ref-first%3A&amp;query_target=Names">is-orth-var-and-non-primary-ref-first:</a>
+    </td>
+    <td>Orth. var. names with first standalone instance not a primary
+       reference.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-orth-var-and-non-primary-sec-ref-first%3A&amp;query_target=Names">is-orth-var-and-non-primary-sec-ref-first:</a>
+    </td>
+    <td>Orth. var. names with at least one instance that meets these
+       conditions: <br> - it is based on the earliest reference for that name,
+       and <br> - it is neither a primary nor a secondary instance.</td>
+  </tr>
+</tbody></table>
+
+<h5>Reference type</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=parent-ref-wrong-child-type%3A&amp;query_target=References">parent-ref-wrong-child-type:</a>
+    </td>
+    <td>References that contain other reference of the
+       wrong type. e.g. Book containing paper</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=rt%3A+journal+parent-ref-wrong-child-type%3A&amp;query_target=References">rt: journal parent-ref-wrong-child-type:</a>
+    </td>
+    <td>Journals that contain a reference that is not a paper.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=not-type%3A+paper+parent-type%3A+journal&amp;query_target=References">not-type: paper parent-type: journal</a>
+    </td>
+    <td>Non-papers that are children of Journals.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=type%3A+unknown+parent-type%3A+journal&amp;query_target=References">type: unknown parent-type: journal</a>
+    </td>
+    <td>Unknowns that are children of Journals.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=not-type%3A+paper+not-type%3A+unknown+parent-type%3A+journal&amp;query_target=References">not-type: paper not-type: unknown parent-type: journal</a>
+    </td>
+    <td>Neither paper nor unknown but child of Journal.</td>
+  </tr>
+</tbody></table>
+
+<h5>Name reports</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=is-a-parent%3A+has-no-instances%3A&amp;query_target=Names">is-a-parent: has-no-instances:</a>
+    </td>
+    <td>Names that have children but no instances.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=with-exactly-one-instance%3A&amp;query_target=Names">with-exactly-one-instance:</a>
+    </td>
+    <td>Names that have exactly one instance. Note: can be slow
+       if not combined with other directives.  See below.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=nt%3A+common+with-exactly-one-instance%3A&amp;query_target=Names">nt: common with-exactly-one-instance:</a>
+    </td>
+    <td>Common names that have exactly one instance.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=ref-title%3A+%2Anew+guinea%2A+with-exactly-one-instance%3A&amp;query_target=Names">ref-title: *new guinea* with-exactly-one-instance:</a>
+    </td>
+    <td>Combine name report with ref-title: query across to 
+       associated references.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=ref-title%3A+%2Anew+guinea%2A+with-exactly-one-instance%3A+in-accepted-tree%3A&amp;query_target=Names">ref-title: *new guinea* with-exactly-one-instance: in-accepted-tree:</a>
+    </td>
+    <td>Combine name report with ref-title: query on associated
+       reference title and return only names either accepted in or
+       excluded from the accepted tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=ref-title%3A+%2Anew+guinea%2A+with-exactly-one-instance%3A+not-in-accepted-tree%3A&amp;query_target=Names">ref-title: *new guinea* with-exactly-one-instance: not-in-accepted-tree:</a>
+    </td>
+    <td>Combine name report with ref-title: query on
+       associated reference title and return only names not either accepted in or
+       excluded from the accepted tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=earliest-instance-not-primary%3A&amp;query_target=Names">earliest-instance-not-primary:</a>
+    </td>
+    <td>Names whose first instance is not a primary reference</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=earliest-instance-not-primary-year-strict%3A&amp;query_target=Names">earliest-instance-not-primary-year-strict:</a>
+    </td>
+    <td>Names whose first instance is not a primary reference - this version makes the date comparison strictly on the year portion of the iso-publication-date and this eliminates some false positives from earliest-instance-not-primary where one publication has a full date and another publication from the same year has only a year portion of the publication date</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=earliest-instance-not-primary-faster%3A&amp;query_target=Names">earliest-instance-not-primary-faster:</a>
+    </td>
+    <td>Names whose first instance is not a primary reference, should run faster than the above two.  Compares the year portion of the iso_publication_date.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=simple-name%3A&amp;query_target=Names">simple-name:</a>
+    </td>
+    <td>Names with no simple name - these are typically mistakes in the name creation process</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=exact-name%3A&amp;query_target=Names">exact-name:</a>
+    </td>
+    <td>Names with no full name - these are typically mistakes in the name creation process</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=parent-child-tree-inconsistent%3A&amp;query_target=Names">parent-child-tree-inconsistent:</a>
+    </td>
+    <td>Names and their parent names that are in the current accepted tree with inconsistent paths up the classification</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=bad-namepath%3A&amp;query_target=Names">bad-namepath:</a>
+    </td>
+    <td>Incorrectly formed name paths, which cause names to be sorted incorrectly in outputs.  Opt in to Common/Cultivars to include them in results</td>
+  </tr>
+</tbody></table>
+
+<h6>Autonym reports</h6>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=autonym-name-mismatch%3A&amp;query_target=Names">autonym-name-mismatch:</a>
+    </td>
+    <td>Autonyms for which the final epithet is not identical to the final        epithet of the parent name.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=autonym-does-not-exist%3A&amp;query_target=Names">autonym-does-not-exist:</a>
+    </td>
+    <td>Names which are of type autonym, have instances AND have the status manuscript OR their parent taxon has the status manuscript OR nom. illeg. [any of the options thereof] OR nom. inval. [any of the options thereof] OR all of the children of their parent taxon have the status manuscript OR nom. illeg. [any of the options thereof] OR nom. inval. [any of the options thereof]?  </td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=autonym-does-not-exist-sibling-rule%3A&amp;query_target=Names">autonym-does-not-exist-sibling-rule:</a>
+    </td>
+    <td>Names which are of the type autonym, have instances AND all of the children of their parent taxon have the status manuscript OR nom. illeg. [any of the options thereof] OR nom. inval. [any of the options thereof]?  </td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=autonym-has-invalid-rank%3A&amp;query_target=Names">autonym-has-invalid-rank:</a>
+    </td>
+    <td>Autonyms are only possible for taxa with a rank: (a) below genus but above species or (b) below species</td>
+  </tr>
+</tbody></table>
+
+<h5>Bad relationships NSL-974</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=bad-relationships-974%3A+limit%3A+10&amp;query_target=Instances">bad-relationships-974: limit: 10</a>
+    </td>
+    <td>Basionym or replaced synonym synonymy instances cited by 
+       instances that are not comb. nov., comb. et stat. nov., nom. nov., 
+       or nom. et stat. nov. limited to the first 10 instances</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=bad-relationships-974%3A+limit%3A+10&amp;query_target=Names">bad-relationships-974: limit: 10</a>
+    </td>
+    <td>Names containing the instances for NSL-974 limited to the first 10 names.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=bad-relationships-974%3A+show-instances%3A+limit%3A+10&amp;query_target=Names">bad-relationships-974: show-instances: limit: 10</a>
+    </td>
+    <td>Names as above for NSL-974 showing instances limited to the first 10 names.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=bad-relationships-974%3A+name%3A+eucalyptus+show-instances%3A&amp;query_target=Names">bad-relationships-974: name: eucalyptus show-instances:</a>
+    </td>
+    <td>Names as above for NSL-974 matching "%eucalyptus%" showing instances.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=count+bad-relationships-974%3A&amp;query_target=Instances">count bad-relationships-974:</a>
+    </td>
+    <td>Count of instances for NSL-974.</td>
+  </tr>
+</tbody></table>
+
+<h5>Name is listed as a synonym of itself (NSL-1974)</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=name-synonym-of-itself%3A+limit%3A+10&amp;query_target=Names">name-synonym-of-itself: limit: 10</a>
+    </td>
+    <td>Name is a synonym of itself.  First 10 records.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=name-synonym-of-itself%3A+limit%3A+10+show-instances%3A&amp;query_target=Names">name-synonym-of-itself: limit: 10 show-instances:</a>
+    </td>
+    <td>Name is a synonym of itself.  First 10 records, showing instances.</td>
+  </tr>
+</tbody></table>
+
+<h5>Name is listed more than once as a synonym of another name, excluding
+misapplications (NSL-1974)</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=name-has-double-synonym%3A+limit%3A+10&amp;query_target=Names">name-has-double-synonym: limit: 10</a>
+    </td>
+    <td>Name has another name as synonym twice - any number of
+       misapplications count as 1 synonym.  First 10 records.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=name-has-double-synonym%3A+show-instances%3A+limit%3A+10&amp;query_target=Names">name-has-double-synonym: show-instances: limit: 10</a>
+    </td>
+    <td>Name has another name as synonym twice - any number of
+       misapplications count as 1 synonym.  First 10 records, showing
+       instances.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=name-is-double-synonym%3A+limit%3A+10&amp;query_target=Names">name-is-double-synonym: limit: 10</a>
+    </td>
+    <td>Name is a synonym of another name twice - any number of
+       misapplications count as 1 synonym.  First 10 records.</td>
+  </tr>
+</tbody></table>
+
+<h5>Names at the top of the accepted tree</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=at-top-of-accepted-tree%3A&amp;query_target=Names">at-top-of-accepted-tree:</a>
+    </td>
+    <td>Names attached to the top of the accepted name tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=name%3A+br+at-top-of-accepted-tree%3A&amp;query_target=Names">name: br at-top-of-accepted-tree:</a>
+    </td>
+    <td>Names starting with "br" attached to the top of the accepted name tree.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=at-top-of-accepted-tree%3A+show-instances%3A+limit%3A+10&amp;query_target=Names">at-top-of-accepted-tree: show-instances: limit: 10</a>
+    </td>
+    <td>Names attached to the top of the accepted name tree,
+       showing instances.  First 10.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=name%3A+ch+at-top-of-accepted-tree%3A+show-instances%3A+limit%3A+10&amp;query_target=Names">name: ch at-top-of-accepted-tree: show-instances: limit: 10</a>
+    </td>
+    <td>Names starting with "ch" attached to the top of the accepted name tree,
+       showing instances.  First 10.</td>
+  </tr>
+</tbody></table>
+
+    <h5>Excluded names on accepted tree with a distribution.</h5>
+    <table class="example-searches table table-striped">
+        <tbody><tr>
+          <td class="width-30-percent">
+            <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=excluded-name-with-distribution%3A&amp;query_target=Names">excluded-name-with-distribution:</a>
+          </td>
+          <td>excluded Names on the accepted tree with a distribution.</td>
+        </tr>
+    </tbody></table>
+
+    <h5>Reference with no year reports</h5>
+<table class="example-searches table table-striped">
+  <tbody><tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A&amp;query_target=References">no-year:</a>
+    </td>
+    <td>References with no year value.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A+rt%3A+book&amp;query_target=References">no-year: rt: book</a>
+    </td>
+    <td>Books with no year value.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A+rt%3A+paper&amp;query_target=References">no-year: rt: paper</a>
+    </td>
+    <td>Papers with no year value.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A+rt%3A+book+is-published%3A&amp;query_target=References">no-year: rt: book is-published:</a>
+    </td>
+    <td>Published books with no year value.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A+pub-date-is-year%3A&amp;query_target=References">no-year: pub-date-is-year:</a>
+    </td>
+    <td>References with no year that have a publication date
+       that is a year or a year in parentheses.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A+pub-date-is-year%3A+rt%3Abook&amp;query_target=References">no-year: pub-date-is-year: rt:book</a>
+    </td>
+    <td>Books with no year that have a publication date that is
+       a year or a year in parentheses.</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A+rt%3A+paper+is-published%3A%0A+++++++pub-date-matches%3A+Jan+2%5B0-9%5D%5B0-9%5D%5B0-9%5D%24&amp;query_target=References">no-year: rt: paper is-published:
+       pub-date-matches: Jan 2[0-9][0-9][0-9]$</a>
+    </td>
+    <td>[Advanced] Published papers with no year and a
+       publication date matching the regular expression (case-insensitive).</td>
+  </tr>
+  <tr>
+    <td class="width-30-percent">
+      <a class="blue" title="Run the report." href="/nsl/editor/search?query_string=no-year%3A+rt%3A+book+is-published%3A+pub-date-matches%3A+1795&amp;query_target=References">no-year: rt: book is-published: pub-date-matches: 1795</a>
+    </td>
+    <td>[Advanced] Published papers with no year and a
+       publication date matching the regular expression 1795.</td>
+  </tr>
+</tbody></table>
+
+    </div>
+       </div> 
+   </tab>
+   <tab class="tab">
+       <input id="taxonomy-radio" type="radio" name="results-tab-group" unchecked>
+       <label for="taxonomy-radio">Taxonomy</label>
+       
+       <div class="tab-content hidden">
+            <div id="tree-reports-container" class="general-results-tab-content"><div id="tree-reports-inner" class="width-95-percent reports-inner">
+  <h4>APC Australian Plant Census List 103, p.p. is the selected draft</h4>
+  <ul class="nav nav-tabs tree-report-tabs" id="tree-report-tabs" role="tablist">
+    <li id="synonymy-tab" class="nav-item active">
+      <a id="val-syn-tab-extra-new" class="nav-link tab" title="Check All Synonymy" aria-controls="Synonymy" aria-selected="false" data-remote="true" data-method="get" href="/nsl/editor/trees/show/cas">Synonymy</a>
+    </li>
+    <li id="changes-tab" class="nav-item">
+      <a id="diff-tab-new" class="nav-link tab" title="Draft Changes Report" aria-controls="Draft Changes Report" aria-selected="false" data-remote="true" data-method="get" href="/nsl/editor/trees/show/diff">Changes</a>
+    </li>
+    <li id="valrep-tab" class="nav-item">
+      <a id="valrep-tab-new" class="nav-link tab" title="Validation Report" aria-controls="Validation Report" aria-selected="false" data-remote="true" data-method="get" href="/nsl/editor/trees/show/valrep">Validation</a>
+    </li>
+  </ul> 
+  <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade active in hidden" id="treeDiff" role="tabpanel" aria-labelledby="diff-tab">
+      <a id="link-to-run-diff" class="btn btn-primary" title="Run the Changes Report" data-remote="true" href="/nsl/editor/trees/run/diff">Run the Changes Report</a>
+      <h5 id="diff-is-running-indicator" class="hidden"></h5>
+      <br>
+      <br>
+      <a class="btn btn-primary" title="An alternative way of running the same report directly (as a work-around for intermittent problems with the standard link)" href="http://localhost:9093/nsl/services/treeVersion/diff?v1=51767960&amp;v2=51768492&amp;embed=false">Alternative link to the Report</a>
+      <div id="diff-content" class="tree-container"> </div>
+    </div>
+    <div class="tab-pane fade" id="treeAltSyn" role="tabpanel" aria-labelledby="alt-syn-tab">
+      <form action="/nsl/editor/trees/update_synonymy" data-remote="true" method="post">
+        <div id="synonymy-content" class="tree-container">
+          Loading altered synonymy report...
+        </div>
+        <button type="submit" id="update_selected_synonymy" name="update_selected_synonymy" class="btn btn-primary hidden" title="Update selected" onclick="$(this).find('i.fa').addClass('fa-spin')">Update selected <i class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+
+    <div class="tab-pane fade" id="treeValidation" role="tabpanel" aria-labelledby="validation-tab">
+      <a id="link-to-run-valrep" class="btn btn-primary" title="Run the Validation Report" data-remote="true" href="/nsl/editor/trees/run/valrep">Run the Validation Report</a>
+      <h5 id="val-report-is-running-indicator" class="hidden"></h5>
+      <br>
+      <br>
+      <a class="btn btn-primary" title="An alternative way of running the same report directly (as a work-around for intermittent problems with the standard link)" href="http://localhost:9093/nsl/services/treeVersion/validate?version=51768492&amp;embed=false">Alternative link to the Report</a>
+      <div id="validation-content" class="tree-container">
+      </div>
+    </div>
+
+    <div class="tab-panefade" id="treeValidateSyn" role="tabpanel" aria-labelledby="val-syn-tab">
+      <a id="link-to-run-cas" class="btn btn-primary" title="Run or re-run the Synonymy Report.  It validates all synonyms." data-remote="true" data-method="get" href="/nsl/editor/trees/run/cas">Run the Synonymy Report</a>
+      <h5 id="cas-report-is-running-indicator" class="hidden"></h5>
+      <br>
+      <br>
+      <a class="btn btn-primary" title="An alternative way of running the same report directly (as a work-around for intermittent problems with the standard link)" href="http://localhost:9093/nsl/services/tree/checkCurrentSynonymy?treeVersionId=51768492&amp;embed=false">Alternative link to the Report</a>
+
+      <form action="/nsl/editor/trees/update_synonymy_by_instance" data-remote="true" method="post">
+        <div id="validate-synonymy-content" class="tree-container"> </div>
+        <button type="submit" id="update_checked_synonymy" name="update_checked_synonymy" class="btn btn-primary hidden" title="Update selected" onclick="$(this).find('i.fa').addClass('fa-spin')">Update selected <i class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+</div>
+</div>
+       </div> 
+   </tab>
+   <tab class="tab">
+       <input id="batch-radio" type="radio" name="results-tab-group" unchecked>
+       <label for="batch-radio">Batch</label>
+       
+       <div class="tab-content hidden">
+<div id="batch-loader-control-panel" class="reports-inner general-results-tab-content">
+
+  <h3>Default batch: 
+  <a title="Query batch in stack format" class="blue" href="/nsl/editor/search?focus_id=loader-batch-51739032&amp;query_string=%2A&amp;query_target=batch+stacks">APC 2022 Updates</a>
+  </h3>
+  <h4>Loading Taxonomy Data</h4>
+  <a id="batch-processing-overview-btn" class="btn btn-primary" title="Show a summary overview of the loading process" data-remote="true" href="/nsl/editor/loader/batches/processing/overview">Overview</a>
+<a id="batch-processing-overview-hide-btn" class="btn btn-primary hidden" title="Hide the summary" data-remote="true" href="/nsl/editor/loader/batches/processing/overview/hide">Hide</a>
+<div id="batch-processing-overview" class="hidden">
+Batch data is imported (from parsed Word documents) as <code>loader-name</code> records
+<h5>Steps</h5>
+<ol>
+  <li>Query and view <code>loader-name</code> records to see how well they match with existing <code>name</code> records.
+    <ul>
+      <li>You can edit the loader-name <code>simple_name</code> to fine-tune the set of matching <code>names</code> (original value is retained in <code>simple_name_as_loaded</code>)
+     </li><li>Create <code>name</code> records if no match exists
+     </li><li>Delete <code>loader-name</code> records if not required
+     </li><li>Exclude a <code>loader-name</code> record from further processing at any time (reversible)
+     </li><li>Create new raw loader-name records via New &gt; Loader Name to supplement the import
+     </li><li>Ensure any potential matching <code>Name</code> records have a primary instance
+     </li><li>View misapplication matches to a <code>name</code> broken down to specific instances - to let you see and choose where the misapplication occurred
+   </li></ul>
+  </li>
+  <li>Set <b>preferred match(es)</b> for loader-names - locking them to the appropriate <code>name</code> record</li>
+    <ul>
+     <li>Edit the match if you need to adjust the relationship instance
+    </li></ul>
+  <li>Identify an instance that documents the usage of the loader-name for the taxonomy.</li>
+  <li>If no such instance exists, <b>create one</b>.</li>
+  <li><b>Add</b> the identified instance to the draft taxonomy.</li>
+</ol>
+</div>
+<hr class="divider">
+
+  <h4>Bulk Operations</h4>
+    <span class="red">No batch default reference has been set. </span>
+  Set one on the edit tab for the 
+  <a title="Query batch in stack format" class="blue" href="/nsl/editor/search?focus_id=loader-batch-51739032&amp;query_string=%2A&amp;query_target=batch+stacks">batch</a>
+
+
+  <h5>Search for names in the batch APC 2022 Updates</h5>
+Default search assumes any leading string is a name string.<br>
+Directives available here: <code>family: [family name string]</code>,  <code>acc: [accepted name string]</code>,  <code>exc: [excluded name string]</code>
+<br>
+Wildcards are allowed but are <b>not</b> added automatically.<br>
+(Adding them automatically would stop you specifying non-wildcarded sets of names to process.)<br>
+The <code>family:</code> directive can take a comma-separated list of family names <em>without</em> wildcards
+<form action="/nsl/editor/loader/batches/bulk" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="ihNDkaSxfGwUNsNaMkMF7rTR8q4frCtYfwGXosBq1SU7d-EqIiuWKMnPLUmiTw5G8__0YVeUUSo6VnlLB7Z-LA" autocomplete="off">
+
+  <div class="width-64em">
+    <input name="name_string" id="bulk-operation-string" type="text" value="" class="form-control" required="" title="bulk operation string for batch work">
+  </div>
+
+  <input name="gui_submit_place" id="gui-submit-place" type="hidden" title="Where this form is, so we can display result messages in the right place" value="global-tab">
+  <input id="loader-bulk-stats-submit" name="submit" type="submit" value="Show Stats" class="btn btn-primary width-16em" title="Show bulk operation statistics" formaction="loader/batches/bulk/stats">
+  <input id="loader-bulk-stats-hide" name="submit" type="submit" value="Hide Stats" class="btn btn-primary width-7em hidden" title="Hide bulk operation statistics" formaction="loader/batches/bulk/stats/hide">
+  <input id="loader-bulk-stats-refresh" name="submit" type="submit" value="Refresh Stats" class="btn btn-primary width-8em hidden" title="Refresh bulk operation statistics" formaction="loader/batches/bulk/stats">
+  <input id="create-matches-batch-submit" name="submit" type="submit" value="Create Preferred Matches" class="btn btn-primary width-16em" title="Create preferred matches" formaction="loader/batches/bulk/matches">
+
+  <input id="create-instances-batch-submit" name="submit" type="submit" value="Create Draft Instances" class="btn btn-primary width-16em" title="Create draft instances" formaction="loader/batches/bulk/instances">
+
+
+       <br>
+       <br>
+      <a id="enable-delete-syn-conflict" class="btn btn-primary width-16em" title="Enable the Remove Syn Conflicts button" data-remote="true" rel="nofollow" data-method="post" href="/nsl/editor/loader/batch/bulk/enable_delete_syn_conflict">Enable Remove Syn Conflicts</a>
+
+       <a id="disable-delete-syn-conflict" class="btn btn-primary width-16em" style="display: none;" title="Disable the Remove Syn Conficts button" data-remote="true" rel="nofollow" data-method="post" href="/nsl/editor/loader/batch/bulk/disable_delete_syn_conflict">Disable Remove Syn Conflicts</a>
+        <input id="delete-syn-conflicts-batch-submit" name="submit" type="submit" value="Remove Syn Conflicts" class="btn btn-primary width-16em" method="post" title="Remove Syn Conflicts" formaction="loader/batches/bulk/syn-conflicts" disabled="true">
+
+
+      <br>
+      <br>
+      <a id="enable-add" class="btn btn-primary width-16em" title="Enable the Add to draft taxonomy button" data-remote="true" rel="nofollow" data-method="post" href="/nsl/editor/loader/batch/bulk/enable_add">Enable Add to draft taxonomy</a>
+
+       <a id="disable-add" class="btn btn-primary width-16em" style="display: none;" title="Disable the Add to draft taxonomy button" data-remote="true" rel="nofollow" data-method="post" href="/nsl/editor/loader/batch/bulk/disable_add">Disable Add to draft taxonomy</a>
+      <input id="add-instances-to-draft-taxonomy-batch-submit" name="submit" type="submit" value="Add to draft taxonomy" class="btn btn-primary width-16em" title="Add instance to the draft taxonomy" formaction="loader/batches/bulk/taxonomy" disabled="true">
+
+</form>
+<div id="bulk-ops-stats-info-message-container" class="message-container"></div>
+<div id="bulk-ops-stats-error-message-container" class="error-container message-container"></div>
+<div id="global-tab-loader-batch-status-info-message-container" class="message-container"></div>
+<div id="global-tab-loader-batch-status-error-message-container" class="error-container message-container"></div>
+<div id="bulk-operations-error-message-container" class="error-container message-container"></div>
+<div id="create-preferred-matches-info-message-container" class="message-container"></div>
+<div id="create-preferred-matches-error-message-container" class="error-container message-container"></div>
+<div id="remove-syn-conflicts-info-message-container" class="message-container"></div>
+<div id="remove-syn-conflicts-error-message-container" class="error-container message-container"></div>
+<div id="create-draft-instances-info-message-container" class="message-container"></div>
+<div id="create-draft-instances-error-message-container" class="error-container message-container"></div>
+<div id="add-to-draft-taxonomy-info-message-container" class="message-container"></div>
+<div id="add-to-draft-taxonomy-error-message-container" class="error-container message-container"></div>
+<br>
+<a class="hidden message-clearer with-underline" title="Clear the messages" data-remote="true" href="/nsl/editor/loader/batch/clear">[clear messages]</a> 
+<br>
+<a title="See logs" class="with-underline" href="/nsl/editor/search?query_string=latest%3A&amp;query_target=bulk_processing_logs">Recent logs</a> 
+<br>
+
+<hr class="dark">
+<div id="bulk-ops-stats-container" class="">
+</div>
+
+<a id="batch-processing-bulk-op-notes-btn" class="btn btn-primary" title="Show a summary overview of the loading process" data-remote="true" href="/nsl/editor/loader/batches/bulk/processing/notes">Bulk Operation Notes</a>
+<a id="batch-processing-bulk-op-notes-hide-btn" class="btn btn-primary hidden" title="Hide the summary" data-remote="true" href="/nsl/editor/loader/batches/bulk/processing/notes/hide">Hide</a>
+<div id="batch-processing-bulk-op-notes" class="hidden">
+<h5>Bulk Operation Notes</h5>
+
+<ul class="no-indent">
+  <li>The buttons run the task by matching the string you enter on the current batch.
+  </li><li>If the button's action can be done, the Editor/Services will do it and report the number of records changed.
+  </li><li>If the action can be done only for some of the target records, the Editor/Services will do what's possible and report the number of records changed.
+  </li><li>You may have to look at specific records to see why they aren't being changed or processed - the jobs here will not report individual problems.
+  </li><li>Hitting buttons again and again or out of order does no harm
+  </li><li>Attached synonyms <b>are</b> included in the processing with the accepted taxon
+  </li><li><b>Not</b> wildcarded, but you can add wildcards
+</li></ul>
+</div>
+
+
+  <br>
+<br>
+  <a id="show-loader-stats-btn" class="btn btn-primary" title="Show latest counts for the current batch" data-remote="true" href="/nsl/editor/loader/batches/stats/51739032">Batch Summary Counts</a>
+  <a id="hide-loader-stats-btn" class="btn btn-primary hidden" title="Hide the counts" data-remote="true" href="/nsl/editor/loader/batches/stats/hide">Hide</a>
+  <a id="refresh-loader-stats-btn" class="btn btn-primary hidden" title="Show latest counts for the current batch" data-remote="true" href="/nsl/editor/loader/batches/stats/51739032">Refresh</a>
+  <div id="batch-stats">
+  </div>
+
+
+
+</div>
+       </div> 
+   </tab>
+
+</main-content-tabs>
+  </main-content> 
+  <record-details-overlay class="hidden">
+      <record-details-content>
+        <record-details-header>
+           <a id="tab-heading" title="Query this name" href="">Angophora Cav.</a> 
+        </record-details-header>
+        <record-details-body>
+
+<tabs class="tabs">
+    
+   <tab class="tab">
+       <input type="radio" id="details-tab-1" name="focus-tab-group" checked>
+       <label for="details-tab-1">Details</label>
+       
+       <div class="tab-content">
+           <p>I am scrollable</p>
+           <p>detail 1 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 2 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 3 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 4 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 5 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 6 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 7 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 8 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 9 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 0 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 10 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 11 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 12 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 13 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 14 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 15 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 16 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 17 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 19 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+           <p>detail 20 11111111 2222222222 3333333333 4444444444 5555555555 </p> 
+       </div> 
+   </tab>
+    
+   <tab class="tab">
+       <input type="radio" id="details-tab-2" name="focus-tab-group">
+       <label for="details-tab-2">Edit</label>
+       
+       <div class="tab-content">
+           <p>I am scrollable</p>
+           <input type="text" id="field-1" name="focus-tab-group">
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="details-tab-3" name="focus-tab-group">
+       <label for="details-tab-3">New Instance</label>
+       <div class="tab-content">
+           New Instance stuff
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="details-tab-4" name="focus-tab-group">
+       <label for="details-tab-4">Copy</label>
+       <div class="tab-content">
+           Copy stuff
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="details-tab-5" name="focus-tab-group">
+       <label for="details-tab-5">Delete</label>
+       <div class="tab-content">
+           Delete stuff
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="details-tab-6" name="focus-tab-group">
+       <label for="details-tab-6">&hellip;</label>
+       <div class="tab-content">
+    
+          <tab class="tab">
+             <input type="radio" id="details-tab-7" name="focus-tab-group">
+             <label for="details-tab-7">Comment</label>
+             <div class="tab-content">
+                 Comment stuff
+             </div> 
+         </tab>
+                
+         <tab class="tab">
+             <input type="radio" id="details-tab-8" name="focus-tab-group">
+             <label for="details-tab-8">Tag</label>
+             <div class="tab-content">
+                 Tag stuff
+             </div> 
+         </tab>
+                
+         <tab class="tab">
+             <input type="radio" id="details-tab-9" name="focus-tab-group">
+             <label for="details-tab-9">Refresh</label>
+             <div class="tab-content">
+                 Refresh stuff
+             </div> 
+         </tab>
+
+
+       </div> 
+   </tab>
+    
+</tabs>
+        </record-details-body>
+      </record-details-content>
+  </record-details-overlay>
+
+  <footer>
+    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> </p>
+  </footer> 
+
+
+</body>
+</html>
+

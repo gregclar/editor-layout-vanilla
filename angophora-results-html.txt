@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trial Editor Layout v5 - search form and menu</title>
+  <link rel="stylesheet" href="normalize.css">  
+  <link rel="stylesheet" href="fontawesome-free.all.min.css">  
+  <link rel="stylesheet" href="style.css">  
+  <link rel="stylesheet" href="nav-menu-bar.css">  
+  <link rel="stylesheet" href="search-form.css">  
+  <link rel="stylesheet" href="main-page-tabs.css">  
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a id="home-tag" href="#home">Dev Editor</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#new">New</a></li>
+        <li><a href="#help">Help</a>
+            <ul class="hidden">
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">What We Do</a></li>
+            </ul>
+        </li>
+        <li><a href="#gclarke">Greg Clarke</a></li>
+        <li><a href="#taxonomy">Taxonomy</a></li>
+        <li><a href="#batch">Batch</a></li>
+        <li><a href="#admin">Admin</a></li>
+      </ul>
+    </nav>
+    <header-body>
+        <form>
+
+<div class="grid-container">
+  <div class="grid-item">
+          <select id="search-target-select" name="search-targets" id="search-targets" style: "border-radius: 0;">
+            <option value="Names">Names</option>
+            <option value="Names plus instances">Names plus instances</option>
+            <option value="Batch Stacks">Batch Stacks</option>
+            <option value="----------------------------------"></option>
+            <option value="References, Names, full synonymy">References, Names, full synonymy</option>
+          </select>
+  </div>
+  <div class="grid-item">
+    <input id="search-input-field" 
+    name="query_string" 
+    type="search" 
+    aria-label="search field"
+    tabindex = "8"
+    placeholder = "Search terms"
+    autofocus = ""
+    title = "Specify your search"
+    value = "angophora"
+    required
+    >
+  </div>
+  <div class="grid-item">
+    <input id="search-button" name="query_submit" value="Search" type="submit" class="btn search-btn" tabindex="9" title="Run the query">
+  </div>  
+  <div id="empty-space-right-of-search-button" class="grid-item empty-space">
+    <!-- empty space -->
+  </div>  
+  <div id="search-extras-below" class="grid-item">
+    <common-and-cultivar>
+    <a title="Name searches will exclude common names and cultivars" 
+       class="" 
+       data-remote="true" 
+       rel="nofollow" 
+       data-method="post" 
+       href="/nsl/editor/set_include_common_and_cultivar">
+       <i class="fa-sharp fa-regular fa-lg fa-square" aria-hidden="true"></i> 
+       Common/Cultivars</a>
+    </common-and-cultivar>
+    61 name of 61 | Names "angophora"
+    
+  </div>
+</div>
+        </form>
+    </header-body>
+
+
+
+  </header> 
+  <main>
+
+<tabs class="tabs">
+    
+   <tab class="tab">
+       <input type="radio" id="tab-1" name="focus-tab-group" checked>
+       <label for="tab-1">Results</label>
+       
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+    <article>
+      <h2>Article Heading</h2>
+      <h3>Aticle Description goes here </h3>
+      <p>adf aslj kasfkj asfdlkasfd lkwaflkewf ljwfelkwfeo ifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+      <p>vasosadv ovsa asvd svdnsadvoij asdvoji adf aslj ljwfelkwfeoifweodj o if soi asfdoi adsfio safio asfdiu afs iasfdoi asfdo iusafdi asfdoi sfa uisaf</p>
+    </article>
+       <div class="tab-content">
+            <div id="search-results-inner" class="no-left-padding col-xs-12 col-sm-12 col-md-12 col-lg-12 search-results-inner">
+    <table id="search-results-table" class="table table-condensed search-results" data-summary="Results of the latest search.">
+              <caption class="hidden">Results of the latest search</caption>
+    
+
+        
+<tbody><tr id="search-result-91714" class="search-result showing-details" data-get-url="/nsl/editor/names/91714" data-edit-url="/nsl/editor/names/91714" data-base-url="/nsl/editor/names/91714" data-tab-url="/nsl/editor/names/91714/tab/active_tab_goes_here" data-record-id="91714" data-record-type="name" tabindex="1101">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent  give-me-focus">
+    <a href="#" class="show-details-link" tabindex="1102" title="Name record.  Select to show details." id="name-91714">
+       Angophora Cav.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777179" class="search-result " data-get-url="/nsl/editor/names/51777179" data-edit-url="/nsl/editor/names/51777179" data-base-url="/nsl/editor/names/51777179" data-tab-url="/nsl/editor/names/51777179/tab/active_tab_goes_here" data-record-id="51777179" data-record-type="name" tabindex="1202">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1203" title="Name record.  Select to show details." id="name-51777179">
+       Angophora abc
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236823" class="search-result " data-get-url="/nsl/editor/names/236823" data-edit-url="/nsl/editor/names/236823" data-base-url="/nsl/editor/names/236823" data-tab-url="/nsl/editor/names/236823/tab/active_tab_goes_here" data-record-id="236823" data-record-type="name" tabindex="1303">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1304" title="Name record.  Select to show details." id="name-236823">
+       Angophora Cav. subser. Angophora
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236822" class="search-result " data-get-url="/nsl/editor/names/236822" data-edit-url="/nsl/editor/names/236822" data-base-url="/nsl/editor/names/236822" data-tab-url="/nsl/editor/names/236822/tab/active_tab_goes_here" data-record-id="236822" data-record-type="name" tabindex="1404">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1405" title="Name record.  Select to show details." id="name-236822">
+       Angophora Cav. ser. Angophora
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91724" class="search-result " data-get-url="/nsl/editor/names/91724" data-edit-url="/nsl/editor/names/91724" data-base-url="/nsl/editor/names/91724" data-tab-url="/nsl/editor/names/91724/tab/active_tab_goes_here" data-record-id="91724" data-record-type="name" tabindex="1505">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1506" title="Name record.  Select to show details." id="name-91724">
+       Angophora bakeri E.C.Hall
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91727" class="search-result " data-get-url="/nsl/editor/names/91727" data-edit-url="/nsl/editor/names/91727" data-base-url="/nsl/editor/names/91727" data-tab-url="/nsl/editor/names/91727/tab/active_tab_goes_here" data-record-id="91727" data-record-type="name" tabindex="1606">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1607" title="Name record.  Select to show details." id="name-91727">
+       Angophora bakeri E.C.Hall subsp. bakeri
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91732" class="search-result " data-get-url="/nsl/editor/names/91732" data-edit-url="/nsl/editor/names/91732" data-base-url="/nsl/editor/names/91732" data-tab-url="/nsl/editor/names/91732/tab/active_tab_goes_here" data-record-id="91732" data-record-type="name" tabindex="1707">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1708" title="Name record.  Select to show details." id="name-91732">
+       Angophora bakeri subsp. crassifolia G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91733" class="search-result " data-get-url="/nsl/editor/names/91733" data-edit-url="/nsl/editor/names/91733" data-base-url="/nsl/editor/names/91733" data-tab-url="/nsl/editor/names/91733/tab/active_tab_goes_here" data-record-id="91733" data-record-type="name" tabindex="1808">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1809" title="Name record.  Select to show details." id="name-91733">
+       Angophora bakeri subsp. paludosa G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777180" class="search-result " data-get-url="/nsl/editor/names/51777180" data-edit-url="/nsl/editor/names/51777180" data-base-url="/nsl/editor/names/51777180" data-tab-url="/nsl/editor/names/51777180/tab/active_tab_goes_here" data-record-id="51777180" data-record-type="name" tabindex="1909">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="1910" title="Name record.  Select to show details." id="name-51777180">
+       Angophora bcdexx
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777181" class="search-result " data-get-url="/nsl/editor/names/51777181" data-edit-url="/nsl/editor/names/51777181" data-base-url="/nsl/editor/names/51777181" data-tab-url="/nsl/editor/names/51777181/tab/active_tab_goes_here" data-record-id="51777181" data-record-type="name" tabindex="2010">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2011" title="Name record.  Select to show details." id="name-51777181">
+       Angophora cdef
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-203476" class="search-result " data-get-url="/nsl/editor/names/203476" data-edit-url="/nsl/editor/names/203476" data-base-url="/nsl/editor/names/203476" data-tab-url="/nsl/editor/names/203476/tab/active_tab_goes_here" data-record-id="203476" data-record-type="name" tabindex="2111">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2112" title="Name record.  Select to show details." id="name-203476">
+       Angophora x clelandi Maiden
+[orth. var.]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91735" class="search-result " data-get-url="/nsl/editor/names/91735" data-edit-url="/nsl/editor/names/91735" data-base-url="/nsl/editor/names/91735" data-tab-url="/nsl/editor/names/91735/tab/active_tab_goes_here" data-record-id="91735" data-record-type="name" tabindex="2212">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2213" title="Name record.  Select to show details." id="name-91735">
+       Angophora x clelandii Maiden
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91742" class="search-result " data-get-url="/nsl/editor/names/91742" data-edit-url="/nsl/editor/names/91742" data-base-url="/nsl/editor/names/91742" data-tab-url="/nsl/editor/names/91742/tab/active_tab_goes_here" data-record-id="91742" data-record-type="name" tabindex="2313">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2314" title="Name record.  Select to show details." id="name-91742">
+       Angophora cordata Vis.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91746" class="search-result " data-get-url="/nsl/editor/names/91746" data-edit-url="/nsl/editor/names/91746" data-base-url="/nsl/editor/names/91746" data-tab-url="/nsl/editor/names/91746/tab/active_tab_goes_here" data-record-id="91746" data-record-type="name" tabindex="2414">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2415" title="Name record.  Select to show details." id="name-91746">
+       Angophora cordifolia Cav.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91755" class="search-result " data-get-url="/nsl/editor/names/91755" data-edit-url="/nsl/editor/names/91755" data-base-url="/nsl/editor/names/91755" data-tab-url="/nsl/editor/names/91755/tab/active_tab_goes_here" data-record-id="91755" data-record-type="name" tabindex="2515">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2516" title="Name record.  Select to show details." id="name-91755">
+       Angophora costata (Gaertn.) Britten
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51254137" class="search-result " data-get-url="/nsl/editor/names/51254137" data-edit-url="/nsl/editor/names/51254137" data-base-url="/nsl/editor/names/51254137" data-tab-url="/nsl/editor/names/51254137/tab/active_tab_goes_here" data-record-id="51254137" data-record-type="name" tabindex="2616">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2617" title="Name record.  Select to show details." id="name-51254137">
+       Angophora costata (Gaertn.) Domin
+[isonym]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-203475" class="search-result " data-get-url="/nsl/editor/names/203475" data-edit-url="/nsl/editor/names/203475" data-base-url="/nsl/editor/names/203475" data-tab-url="/nsl/editor/names/203475/tab/active_tab_goes_here" data-record-id="203475" data-record-type="name" tabindex="2717">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2718" title="Name record.  Select to show details." id="name-203475">
+       Angophora costata subsp. AAADAB
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-203474" class="search-result " data-get-url="/nsl/editor/names/203474" data-edit-url="/nsl/editor/names/203474" data-base-url="/nsl/editor/names/203474" data-tab-url="/nsl/editor/names/203474/tab/active_tab_goes_here" data-record-id="203474" data-record-type="name" tabindex="2818">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2819" title="Name record.  Select to show details." id="name-203474">
+       Angophora costata subsp. AAADACeee
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91759" class="search-result " data-get-url="/nsl/editor/names/91759" data-edit-url="/nsl/editor/names/91759" data-base-url="/nsl/editor/names/91759" data-tab-url="/nsl/editor/names/91759/tab/active_tab_goes_here" data-record-id="91759" data-record-type="name" tabindex="2919">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="2920" title="Name record.  Select to show details." id="name-91759">
+       Angophora costata (Gaertn.) Britten subsp. costata
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91763" class="search-result " data-get-url="/nsl/editor/names/91763" data-edit-url="/nsl/editor/names/91763" data-base-url="/nsl/editor/names/91763" data-tab-url="/nsl/editor/names/91763/tab/active_tab_goes_here" data-record-id="91763" data-record-type="name" tabindex="3020">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3021" title="Name record.  Select to show details." id="name-91763">
+       Angophora costata subsp. euryphylla L.A.S.Johnson ex G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91764" class="search-result " data-get-url="/nsl/editor/names/91764" data-edit-url="/nsl/editor/names/91764" data-base-url="/nsl/editor/names/91764" data-tab-url="/nsl/editor/names/91764/tab/active_tab_goes_here" data-record-id="91764" data-record-type="name" tabindex="3121">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3122" title="Name record.  Select to show details." id="name-91764">
+       Angophora costata subsp. leiocarpa L.A.S.Johnson ex G.J.Leach
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236827" class="search-result " data-get-url="/nsl/editor/names/236827" data-edit-url="/nsl/editor/names/236827" data-base-url="/nsl/editor/names/236827" data-tab-url="/nsl/editor/names/236827/tab/active_tab_goes_here" data-record-id="236827" data-record-type="name" tabindex="3222">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3223" title="Name record.  Select to show details." id="name-236827">
+       Angophora ser. Costatitae K.R.Thiele &amp; Ladiges
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-118572" class="search-result " data-get-url="/nsl/editor/names/118572" data-edit-url="/nsl/editor/names/118572" data-base-url="/nsl/editor/names/118572" data-tab-url="/nsl/editor/names/118572/tab/active_tab_goes_here" data-record-id="118572" data-record-type="name" tabindex="3323">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3324" title="Name record.  Select to show details." id="name-118572">
+       Angophora crassifolia (G.J.Leach) L.A.S.Johnson &amp; K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91768" class="search-result " data-get-url="/nsl/editor/names/91768" data-edit-url="/nsl/editor/names/91768" data-base-url="/nsl/editor/names/91768" data-tab-url="/nsl/editor/names/91768/tab/active_tab_goes_here" data-record-id="91768" data-record-type="name" tabindex="3424">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3425" title="Name record.  Select to show details." id="name-91768">
+       Angophora x dichromophloia Blakely
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-118569" class="search-result " data-get-url="/nsl/editor/names/118569" data-edit-url="/nsl/editor/names/118569" data-base-url="/nsl/editor/names/118569" data-tab-url="/nsl/editor/names/118569/tab/active_tab_goes_here" data-record-id="118569" data-record-type="name" tabindex="3525">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3526" title="Name record.  Select to show details." id="name-118569">
+       Angophora euryphylla (L.A.S.Johnson ex G.J.Leach) L.A.S.Johnson &amp; K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-162397" class="search-result " data-get-url="/nsl/editor/names/162397" data-edit-url="/nsl/editor/names/162397" data-base-url="/nsl/editor/names/162397" data-tab-url="/nsl/editor/names/162397/tab/active_tab_goes_here" data-record-id="162397" data-record-type="name" tabindex="3626">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3627" title="Name record.  Select to show details." id="name-162397">
+       Angophora exul K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777182" class="search-result " data-get-url="/nsl/editor/names/51777182" data-edit-url="/nsl/editor/names/51777182" data-base-url="/nsl/editor/names/51777182" data-tab-url="/nsl/editor/names/51777182/tab/active_tab_goes_here" data-record-id="51777182" data-record-type="name" tabindex="3727">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3728" title="Name record.  Select to show details." id="name-51777182">
+       Angophora fghij
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91776" class="search-result " data-get-url="/nsl/editor/names/91776" data-edit-url="/nsl/editor/names/91776" data-base-url="/nsl/editor/names/91776" data-tab-url="/nsl/editor/names/91776/tab/active_tab_goes_here" data-record-id="91776" data-record-type="name" tabindex="3828">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3829" title="Name record.  Select to show details." id="name-91776">
+       Angophora floribunda (Sm.) Sweet
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91787" class="search-result " data-get-url="/nsl/editor/names/91787" data-edit-url="/nsl/editor/names/91787" data-base-url="/nsl/editor/names/91787" data-tab-url="/nsl/editor/names/91787/tab/active_tab_goes_here" data-record-id="91787" data-record-type="name" tabindex="3929">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="3930" title="Name record.  Select to show details." id="name-91787">
+       Angophora floribunda (Sm.) Domin
+[nom. illeg., nom. superfl.]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51390653" class="search-result " data-get-url="/nsl/editor/names/51390653" data-edit-url="/nsl/editor/names/51390653" data-base-url="/nsl/editor/names/51390653" data-tab-url="/nsl/editor/names/51390653/tab/active_tab_goes_here" data-record-id="51390653" data-record-type="name" tabindex="4030">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4031" title="Name record.  Select to show details." id="name-51390653">
+       Angophora floribunda (Sm.) Sweet x Angophora leiocarpa (L.A.S.Johnson ex G.J.Leach) K.R.Thiele &amp; Ladiges
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51370961" class="search-result " data-get-url="/nsl/editor/names/51370961" data-edit-url="/nsl/editor/names/51370961" data-base-url="/nsl/editor/names/51370961" data-tab-url="/nsl/editor/names/51370961/tab/active_tab_goes_here" data-record-id="51370961" data-record-type="name" tabindex="4131">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4132" title="Name record.  Select to show details." id="name-51370961">
+       Angophora floribunda (Sm.) Sweet x Angophora woodsiana F.M.Bailey
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91794" class="search-result " data-get-url="/nsl/editor/names/91794" data-edit-url="/nsl/editor/names/91794" data-base-url="/nsl/editor/names/91794" data-tab-url="/nsl/editor/names/91794/tab/active_tab_goes_here" data-record-id="91794" data-record-type="name" tabindex="4232">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4233" title="Name record.  Select to show details." id="name-91794">
+       Angophora floribunda (Sm.) Sweet var. floribunda
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91798" class="search-result " data-get-url="/nsl/editor/names/91798" data-edit-url="/nsl/editor/names/91798" data-base-url="/nsl/editor/names/91798" data-tab-url="/nsl/editor/names/91798/tab/active_tab_goes_here" data-record-id="91798" data-record-type="name" tabindex="4333">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4334" title="Name record.  Select to show details." id="name-91798">
+       Angophora floribunda var. woodsiana (F.M.Bailey) Domin
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-236820" class="search-result " data-get-url="/nsl/editor/names/236820" data-edit-url="/nsl/editor/names/236820" data-base-url="/nsl/editor/names/236820" data-tab-url="/nsl/editor/names/236820/tab/active_tab_goes_here" data-record-id="236820" data-record-type="name" tabindex="4434">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4435" title="Name record.  Select to show details." id="name-236820">
+       Angophora ser. Floribundinae K.R.Thiele &amp; Ladiges
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777176" class="search-result " data-get-url="/nsl/editor/names/51777176" data-edit-url="/nsl/editor/names/51777176" data-base-url="/nsl/editor/names/51777176" data-tab-url="/nsl/editor/names/51777176/tab/active_tab_goes_here" data-record-id="51777176" data-record-type="name" tabindex="4535">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4536" title="Name record.  Select to show details." id="name-51777176">
+       Angophora fred
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91809" class="search-result " data-get-url="/nsl/editor/names/91809" data-edit-url="/nsl/editor/names/91809" data-base-url="/nsl/editor/names/91809" data-tab-url="/nsl/editor/names/91809/tab/active_tab_goes_here" data-record-id="91809" data-record-type="name" tabindex="4636">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4637" title="Name record.  Select to show details." id="name-91809">
+       Angophora hispida (Sm.) Blaxell
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-159969" class="search-result " data-get-url="/nsl/editor/names/159969" data-edit-url="/nsl/editor/names/159969" data-base-url="/nsl/editor/names/159969" data-tab-url="/nsl/editor/names/159969/tab/active_tab_goes_here" data-record-id="159969" data-record-type="name" tabindex="4737">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4738" title="Name record.  Select to show details." id="name-159969">
+       Angophora inopina K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91819" class="search-result " data-get-url="/nsl/editor/names/91819" data-edit-url="/nsl/editor/names/91819" data-base-url="/nsl/editor/names/91819" data-tab-url="/nsl/editor/names/91819/tab/active_tab_goes_here" data-record-id="91819" data-record-type="name" tabindex="4838">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4839" title="Name record.  Select to show details." id="name-91819">
+       Angophora intermedia DC.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91827" class="search-result " data-get-url="/nsl/editor/names/91827" data-edit-url="/nsl/editor/names/91827" data-base-url="/nsl/editor/names/91827" data-tab-url="/nsl/editor/names/91827/tab/active_tab_goes_here" data-record-id="91827" data-record-type="name" tabindex="4939">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="4940" title="Name record.  Select to show details." id="name-91827">
+       Angophora intermedia DC. var. intermedia
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91831" class="search-result " data-get-url="/nsl/editor/names/91831" data-edit-url="/nsl/editor/names/91831" data-base-url="/nsl/editor/names/91831" data-tab-url="/nsl/editor/names/91831/tab/active_tab_goes_here" data-record-id="91831" data-record-type="name" tabindex="5040">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5041" title="Name record.  Select to show details." id="name-91831">
+       Angophora intermedia var. melanoxylon (R.T.Baker) Maiden &amp; Betche
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91840" class="search-result " data-get-url="/nsl/editor/names/91840" data-edit-url="/nsl/editor/names/91840" data-base-url="/nsl/editor/names/91840" data-tab-url="/nsl/editor/names/91840/tab/active_tab_goes_here" data-record-id="91840" data-record-type="name" tabindex="5141">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5142" title="Name record.  Select to show details." id="name-91840">
+       Angophora intermedia var. woodsiana (F.M.Bailey) F.M.Bailey
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777178" class="search-result " data-get-url="/nsl/editor/names/51777178" data-edit-url="/nsl/editor/names/51777178" data-base-url="/nsl/editor/names/51777178" data-tab-url="/nsl/editor/names/51777178/tab/active_tab_goes_here" data-record-id="51777178" data-record-type="name" tabindex="5242">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5243" title="Name record.  Select to show details." id="name-51777178">
+       Angophora jim
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777177" class="search-result " data-get-url="/nsl/editor/names/51777177" data-edit-url="/nsl/editor/names/51777177" data-base-url="/nsl/editor/names/51777177" data-tab-url="/nsl/editor/names/51777177/tab/active_tab_goes_here" data-record-id="51777177" data-record-type="name" tabindex="5343">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5344" title="Name record.  Select to show details." id="name-51777177">
+       Angophora joe
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91851" class="search-result " data-get-url="/nsl/editor/names/91851" data-edit-url="/nsl/editor/names/91851" data-base-url="/nsl/editor/names/91851" data-tab-url="/nsl/editor/names/91851/tab/active_tab_goes_here" data-record-id="91851" data-record-type="name" tabindex="5444">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5445" title="Name record.  Select to show details." id="name-91851">
+       Angophora lanceolata Cav.
+[nom. illeg., nom. superfl.]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91860" class="search-result " data-get-url="/nsl/editor/names/91860" data-edit-url="/nsl/editor/names/91860" data-base-url="/nsl/editor/names/91860" data-tab-url="/nsl/editor/names/91860/tab/active_tab_goes_here" data-record-id="91860" data-record-type="name" tabindex="5545">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5546" title="Name record.  Select to show details." id="name-91860">
+       Angophora lanceolata var. angustifolia A.Gray
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91871" class="search-result " data-get-url="/nsl/editor/names/91871" data-edit-url="/nsl/editor/names/91871" data-base-url="/nsl/editor/names/91871" data-tab-url="/nsl/editor/names/91871/tab/active_tab_goes_here" data-record-id="91871" data-record-type="name" tabindex="5646">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5647" title="Name record.  Select to show details." id="name-91871">
+       Angophora lanceolata var. hispida A.Gray
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91878" class="search-result " data-get-url="/nsl/editor/names/91878" data-edit-url="/nsl/editor/names/91878" data-base-url="/nsl/editor/names/91878" data-tab-url="/nsl/editor/names/91878/tab/active_tab_goes_here" data-record-id="91878" data-record-type="name" tabindex="5747">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5748" title="Name record.  Select to show details." id="name-91878">
+       Angophora lanceolata Cav. var. lanceolata
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91883" class="search-result " data-get-url="/nsl/editor/names/91883" data-edit-url="/nsl/editor/names/91883" data-base-url="/nsl/editor/names/91883" data-tab-url="/nsl/editor/names/91883/tab/active_tab_goes_here" data-record-id="91883" data-record-type="name" tabindex="5848">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5849" title="Name record.  Select to show details." id="name-91883">
+       Angophora lanceolata var. woodsiana (F.M.Bailey) Maiden
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-123435" class="search-result " data-get-url="/nsl/editor/names/123435" data-edit-url="/nsl/editor/names/123435" data-base-url="/nsl/editor/names/123435" data-tab-url="/nsl/editor/names/123435/tab/active_tab_goes_here" data-record-id="123435" data-record-type="name" tabindex="5949">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="5950" title="Name record.  Select to show details." id="name-123435">
+       Angophora leiocarpa (L.A.S.Johnson ex G.J.Leach) K.R.Thiele &amp; Ladiges
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91894" class="search-result " data-get-url="/nsl/editor/names/91894" data-edit-url="/nsl/editor/names/91894" data-base-url="/nsl/editor/names/91894" data-tab-url="/nsl/editor/names/91894/tab/active_tab_goes_here" data-record-id="91894" data-record-type="name" tabindex="6050">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6051" title="Name record.  Select to show details." id="name-91894">
+       Angophora melanoxylon R.T.Baker
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51777193" class="search-result " data-get-url="/nsl/editor/names/51777193" data-edit-url="/nsl/editor/names/51777193" data-base-url="/nsl/editor/names/51777193" data-tab-url="/nsl/editor/names/51777193/tab/active_tab_goes_here" data-record-id="51777193" data-record-type="name" tabindex="6151">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6152" title="Name record.  Select to show details." id="name-51777193">
+       Angophora null E.'t Hart
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91905" class="search-result " data-get-url="/nsl/editor/names/91905" data-edit-url="/nsl/editor/names/91905" data-base-url="/nsl/editor/names/91905" data-tab-url="/nsl/editor/names/91905/tab/active_tab_goes_here" data-record-id="91905" data-record-type="name" tabindex="6252">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6253" title="Name record.  Select to show details." id="name-91905">
+       Angophora ochrophylla R.T.Baker
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-133966" class="search-result " data-get-url="/nsl/editor/names/133966" data-edit-url="/nsl/editor/names/133966" data-base-url="/nsl/editor/names/133966" data-tab-url="/nsl/editor/names/133966/tab/active_tab_goes_here" data-record-id="133966" data-record-type="name" tabindex="6353">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6354" title="Name record.  Select to show details." id="name-133966">
+       Angophora paludosa (G.J.Leach) K.R.Thiele &amp; Ladiges
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-118574" class="search-result " data-get-url="/nsl/editor/names/118574" data-edit-url="/nsl/editor/names/118574" data-base-url="/nsl/editor/names/118574" data-tab-url="/nsl/editor/names/118574/tab/active_tab_goes_here" data-record-id="118574" data-record-type="name" tabindex="6454">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6455" title="Name record.  Select to show details." id="name-118574">
+       Angophora robur L.A.S.Johnson &amp; K.D.Hill
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303234" class="search-result " data-get-url="/nsl/editor/names/51303234" data-edit-url="/nsl/editor/names/51303234" data-base-url="/nsl/editor/names/51303234" data-tab-url="/nsl/editor/names/51303234/tab/active_tab_goes_here" data-record-id="51303234" data-record-type="name" tabindex="6555">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6556" title="Name record.  Select to show details." id="name-51303234">
+       Angophora sp.
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303410" class="search-result " data-get-url="/nsl/editor/names/51303410" data-edit-url="/nsl/editor/names/51303410" data-base-url="/nsl/editor/names/51303410" data-tab-url="/nsl/editor/names/51303410/tab/active_tab_goes_here" data-record-id="51303410" data-record-type="name" tabindex="6656">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6657" title="Name record.  Select to show details." id="name-51303410">
+       Angophora sp.
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303407" class="search-result " data-get-url="/nsl/editor/names/51303407" data-edit-url="/nsl/editor/names/51303407" data-base-url="/nsl/editor/names/51303407" data-tab-url="/nsl/editor/names/51303407/tab/active_tab_goes_here" data-record-id="51303407" data-record-type="name" tabindex="6757">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6758" title="Name record.  Select to show details." id="name-51303407">
+       Angophora sp.
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-51303326" class="search-result " data-get-url="/nsl/editor/names/51303326" data-edit-url="/nsl/editor/names/51303326" data-base-url="/nsl/editor/names/51303326" data-tab-url="/nsl/editor/names/51303326/tab/active_tab_goes_here" data-record-id="51303326" data-record-type="name" tabindex="6858">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6859" title="Name record.  Select to show details." id="name-51303326">
+       Angophora sp.
+[n/a]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91914" class="search-result " data-get-url="/nsl/editor/names/91914" data-edit-url="/nsl/editor/names/91914" data-base-url="/nsl/editor/names/91914" data-tab-url="/nsl/editor/names/91914/tab/active_tab_goes_here" data-record-id="91914" data-record-type="name" tabindex="6959">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="6960" title="Name record.  Select to show details." id="name-91914">
+       Angophora subvelutina F.Muell.
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91925" class="search-result " data-get-url="/nsl/editor/names/91925" data-edit-url="/nsl/editor/names/91925" data-base-url="/nsl/editor/names/91925" data-tab-url="/nsl/editor/names/91925/tab/active_tab_goes_here" data-record-id="91925" data-record-type="name" tabindex="7060">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="7061" title="Name record.  Select to show details." id="name-91925">
+       Angophora velutina F.Muell.
+[orth. var.]
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+
+        
+<tr id="search-result-91935" class="search-result " data-get-url="/nsl/editor/names/91935" data-edit-url="/nsl/editor/names/91935" data-base-url="/nsl/editor/names/91935" data-tab-url="/nsl/editor/names/91935/tab/active_tab_goes_here" data-record-id="91935" data-record-type="name" tabindex="7161">
+  <td class="takes-focus nsl-tiny-icon-container width-1-percent"><svg class="icon name-icon" height="13px" width="7px" xmlns="http://www.w3.org/2000/svg" title="Name"><polygon class="svgpolygon" points="2,3, 9,3,  9,23  2,23" fill="rgba(102,183,39,1.0)"></polygon></svg></td>
+  <td colspan="2" class="text takes-focus abbrev main-content width-95-percent ">
+    <a href="#" class="show-details-link" tabindex="7162" title="Name record.  Select to show details." id="name-91935">
+       Angophora woodsiana F.M.Bailey
+
+
+
+
+    </a>
+
+  </td>
+  <td class="takes-focus width-5-percent filler">&nbsp;</td>
+</tr>
+
+
+    <tr>
+      <td class="width-1-percent"></td>
+      <td class="min-with-40-percent width-50-percent max-width-60-percent">
+        <br> <br> <br> <br> <br>
+      </td>
+      <td class="width-5-percent filler"></td>
+    </tr>
+
+
+
+    </tbody></table>
+  </div>
+
+       </div> 
+   </tab>
+</tabs>
+  </main> 
+  <record-details-overlay>
+      <record-details-content>
+        <record-details-header>
+           <a id="tab-heading" title="Query this name" href="">Angophora Cav.</a> 
+        </record-details-header>
+        <record-details-body>
+
+<tabs class="tabs">
+    
+   <tab class="tab">
+       <input type="radio" id="tab-1" name="focus-tab-group" checked>
+       <label for="tab-1">Details</label>
+       
+       <div class="tab-content">
+           <p>I am scrollable</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+           <p>detail 1 ........</p> <p>detail 2 ........</p> <p>detail 3 ........</p> <p>detail 4 ........</p> <p>detail 5 ........</p>
+           <p>detail 6 ........</p> <p>detail 7 ........</p> <p>detail 8 ........</p> <p>detail 9 ........</p> <p>detail 10 .......</p>
+       </div> 
+   </tab>
+    
+   <tab class="tab">
+       <input type="radio" id="tab-2" name="focus-tab-group">
+       <label for="tab-2">Edit</label>
+       
+       <div class="tab-content">
+           <p>I am scrollable</p>
+           <input type="text" id="field-1" name="focus-tab-group">
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+           <p>edit 1 ........</p> <p>edit 2 ........</p> <p>edit 3 ........</p> <p>edit 4 ........</p> <p>edit 5 ........</p>
+           <p>edit 6 ........</p> <p>edit 7 ........</p> <p>edit 8 ........</p> <p>edit 9 ........</p> <p>edit 10 .......</p>
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="tab-3" name="focus-tab-group">
+       <label for="tab-3">New Instance</label>
+       <div class="tab-content">
+           New Instance stuff
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="tab-4" name="focus-tab-group">
+       <label for="tab-4">Copy</label>
+       <div class="tab-content">
+           Copy stuff
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="tab-5" name="focus-tab-group">
+       <label for="tab-5">Delete</label>
+       <div class="tab-content">
+           Delete stuff
+       </div> 
+   </tab>
+    
+    <tab class="tab">
+       <input type="radio" id="tab-6" name="focus-tab-group">
+       <label for="tab-6">More</label>
+       <div class="tab-content">
+    
+          <tab class="tab">
+             <input type="radio" id="tab-7" name="focus-tab-group">
+             <label for="tab-7">Comment</label>
+             <div class="tab-content">
+                 Comment stuff
+             </div> 
+         </tab>
+                
+         <tab class="tab">
+             <input type="radio" id="tab-8" name="focus-tab-group">
+             <label for="tab-8">Tag</label>
+             <div class="tab-content">
+                 Tag stuff
+             </div> 
+         </tab>
+                
+         <tab class="tab">
+             <input type="radio" id="tab-9" name="focus-tab-group">
+             <label for="tab-9">Refresh</label>
+             <div class="tab-content">
+                 Refresh stuff
+             </div> 
+         </tab>
+
+
+       </div> 
+   </tab>
+    
+</tabs>
+        </record-details-body>
+      </record-details-content>
+  </record-details-overlay>
+
+  <footer>
+    <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> </p>
+  </footer> 
+
+
+</body>
+</html>
+

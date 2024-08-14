@@ -1,0 +1,273 @@
+* :root {
+  --header-bg-color: #573e84;
+}
+
+/*
+*.hidden {
+  display: none;
+}
+*/
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: helvetica, verdana;
+  font-family: -apple-system,  
+                BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  padding-bottom: 58px;
+}
+header {
+  text-align: center;
+  background-color: var(--header-bg-color, #573e84);
+  color: white;
+  padding: 0 0 0 0;  /* new look */
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 150px;
+}
+
+
+
+
+/* navbar */
+
+header > nav {
+  /* for overlay */
+  position: relative;
+  /* for overlay */
+}
+
+header > header-body {
+  display: block;
+  padding-top: 40px;
+}
+
+header > nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  /* for overlay */
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  /* for overlay */
+}
+
+header > nav > ul > li {
+  float: left;
+}
+
+#home-tag {
+  background-color: white;
+  color: black;
+  width: 8em;
+}
+header > nav > ul > li a {
+  display: block;
+  padding: 8px;
+  background-color: #573e84;
+  color: white;
+  text-decoration: none;
+}
+
+/* end navbar */
+
+
+
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+header p {
+  font-size: 22px;
+}
+main-content {
+  display: block;
+  position: fixed;
+  top: 63px;
+  width: 100vw;
+  margin-top: 57px;
+  padding: 0 0 0 0;
+  background-color: var(--header-bg-color, #573e84);
+}
+record-details-overlay {
+  display: block;
+  position: fixed;
+  background-color: white;
+  color: black;
+  border: 1px  solid #000;
+  top: 128px;
+  right: 1em;
+  width: 34%;
+  height: 77%;
+  z-index: 9;
+  border-radius: 3px;
+  box-shadow: 5px 5px 2px 1px rgba(0,0,0,0.2);
+  overflow: hide;
+  padding: 15px;
+  box-size: border-box;
+}
+footer {
+  text-align: left;
+  background-color: var(--header-bg-color, #573e84);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+record-details-header {
+  display: block;
+  min-height: 2em;
+}
+
+record-details-body {
+  display: block;
+  overflow: hidden;
+  height: 97%;
+
+  & tabs {
+    display: block;
+    position: relative;   
+    min-height: 200px; /* This part sucks */
+    height: 100%;
+    clear: both;
+    margin: 10px 0; /* controls where the tabs appear vertically insise record-details-body, increase to push down */
+  }
+  & tab {
+    float: left;
+  }
+  & tab label {
+    background: #eee; 
+    padding: 3px 5px 5px 5px;
+    border: 1px solid #ccc; 
+    margin-left: -1px; 
+    position: relative;
+    left: 1px; 
+    top: 7px;  /* move label closer to tab content */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  & tab [type=radio] {
+    display: none;   
+  }
+  & .tab-content {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    padding: 5px 20px 20px 0px;
+    border-top: 1px solid #ccc; 
+    overflow: auto;
+    height: 100%;
+  }
+  & [type=radio]:checked ~ label {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+  }
+  & [type=radio]:checked ~ label ~ .tab-content {
+    z-index: 1;
+  }
+}
+
+
+main-content-tabs {
+  display: block;
+  position: relative;   
+  min-height: 700px; /* This part sucks */
+  height: 100%;
+  clear: both;
+  padding: 0;
+
+    & tab {
+      float: left;
+    }
+    & tab label {
+      background: #eee; 
+      padding: 6px 4px 8px 6px;
+      border: 1px solid #ccc; 
+      margin-left: -1px; 
+      position: relative;
+      left: 1px; 
+      top: 4px;  /* move label closer to tab content */
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: var(--header-bg-color, #573e84);
+      color: white;
+    }
+    & tab [type=radio] {
+      display: none;   
+    }
+    & .tab-content {
+      position: absolute;
+      top: 28px;
+      left: 0;
+      background: white;
+      right: 0;
+      bottom: 0;
+      padding: 5px 20px 20px 0px;
+      border-top: 1px solid #ccc; 
+      overflow: auto;
+      height: 100%;
+    }
+    & [type=radio]:checked ~ label {
+      background: white;
+      color: black;
+      border-bottom: 1px solid white;
+      z-index: 2;
+    }
+    & [type=radio]:checked ~ label ~ .tab-content {
+      z-index: 1;
+      display: block;
+    }
+}
+
+body:has(#search-results-radio:checked) record-details-overlay {
+  display: block;
+}
+
+body:has(#query-help-radio:checked) record-details-overlay,
+body:has(#query-examples-radio:checked) record-details-overlay,
+body:has(#reports-radio:checked) record-details-overlay,
+body:has(#taxonomy-radio:checked) record-details-overlay,
+body:has(#batch-radio:checked) record-details-overlay {
+  display: none;
+}
+
+
+.general-results-tab-content {
+  padding: 0 0 0 10px;
+}
+article {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+article:last-child {
+  margin-bottom: 0;
+}
+article h3 {
+  margin: 10px 0 25px 0;
+}
+article p {
+  margin-top: 16px;
+  line-height: 24px;
+}
+
+
+
+

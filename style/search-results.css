@@ -1,0 +1,60 @@
+#search-results-table {
+
+    & td  svg.icon {
+      display: none;
+    }
+
+    & td.nsl-tiny-icon-container {
+      background-color: green;
+      width: 5px;
+      max-width: 5px;
+      padding: 0 0 0 0;
+    }
+
+    & tr td.text a:link {
+      text-decoration: none;
+      color: black;
+    }
+
+    & tr td:hover {
+      background-color: gray;
+      color: white;
+    }
+
+    & padding-bottom: {
+      height: 280em;
+      background-color: red;
+    }
+
+}
+
+/* the code below overcame the chrome style for blue link
+ * as tested on the search-results-table
+ * and with the hover gray for rows and white for links when the row is hovered */
+
+body:has(#search-results-table tr td:hover) #search-results-table tr td:hover a:link {
+  color: white;
+}
+
+table#search-results-table tr.showing-details td {
+  color: white;
+  background: gray;
+}
+
+table#search-results-table tr.showing-details td a {
+  color: white;
+}
+
+a {
+  color: #606060;
+}
+
+a:hover {
+  color: white;
+}
+
+td:hover a {
+  color: white;
+}
+
+/* end of code that overcame the chrome styling of links blue */
