@@ -1,19 +1,14 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  overflow: auto;
-}
 
 .navbar {
   overflow: auto;
-  background-color: #333;
+  background-color: #573e84;
 }
 
 .navbar a {
   float: left;
-  font-size: 16px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 4px 16px 14px 16px;
   text-decoration: none;
 }
 
@@ -23,18 +18,18 @@ body {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 4px 16px 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: white;
+  color: black;
 }
 
 .dropdown-content {
@@ -63,14 +58,10 @@ body {
   display: block;
 }
 
-
-/*
-body:has(.dropdown:hover) record-details-overlay {
-  display: none;
-}
-
+/* This hides the main-content tabs and allows navbar dropdowns to display
+ * When we find out why those tabs prevent the dropdowns displaying properly
+ * we can remove this code.
+ * */
 body:has(.dropdown:hover) main-content {
-  display: none;
+  z-index: -1;
 }
-*/
-
