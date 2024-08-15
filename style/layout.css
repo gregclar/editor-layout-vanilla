@@ -97,7 +97,7 @@ main-content {
   top: 63px;
   width: 100vw;
   margin-top: 57px;
-  padding: 0 0 0 0;
+  padding: 0 0 0 2px;
   background-color: var(--header-bg-color, #573e84);
 }
 record-details-overlay {
@@ -191,7 +191,7 @@ main-content-tabs {
   min-height: 700px; /* This part sucks */
   height: 100%;
   clear: both;
-  padding: 0;
+  padding: 0 0 0 0;
 
     & tab {
       float: left;

@@ -1,9 +1,12 @@
-.grid-container {
+
+search-form-container {
+  margin-top: -34px; /* this stops the form being pushed down the page -  not sure why we need it, but we do */
   display: grid;
   grid-template-columns: 3fr 7fr 1fr 12fr;
   grid-template-rows: 2em 2em;
   background-color: #573e84;
   padding: 0px;
+  margin-left: 4px;
   justify-items: stretch;
 }
 .grid-item {
